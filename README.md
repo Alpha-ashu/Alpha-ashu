@@ -1,0 +1,13 @@
+- 👋 Hi, I’m @Alpha-ashu
+- 👀 I’m interested in building new companies...
+- 🌱 I’m currently learning Full stack in development and Testing ...
+- 💞️ I’m looking to collaborate on New Projects...
+- 📫 How to reach me ...
+- LinkedIn: https://www.linkedin.com/in/shaik-ashraf-a1768b115/
+- EmailID: shaik.job.details@gmail.com
+- Whatsapp Number: 9176164484
+
+<!---
+Alpha-ashu/Alpha-ashu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
