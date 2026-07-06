@@ -225,36 +225,9 @@ Passion    : Framework Design | Automation | AI Testing
 
 ## 🏆 Key Achievements
 
-<table width="100%">
-<tr>
-<td width="50%">
-
-🚀 **Production-Grade API Framework**
-> Delivered solo enterprise API test framework for a major healthcare migration — eliminated significant manual regression cycles
-
-</td>
-<td width="50%">
-
-🔬 **JSON Comparison Engine**
-> Built reusable engine handling **thousands of record checks per CI run** with automated daily reporting
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-🥇 **Employee of the Quarter**
-> Awarded for measurable process improvements in an AI/ML domain QA role
-
-</td>
-<td width="50%">
-
-👑 **Team Leadership Recognition**
-> Recognized for independently leading end-to-end QA across enterprise healthcare modules
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="./assets/achievements_glass.svg" width="100%" alt="Key Achievements — API Framework, JSON Matcher Engine, Employee of the Quarter, E2E Module Ownership"/>
+</div>
 
 ---
 
