@@ -281,25 +281,7 @@ Connecting skilled professionals with remote opportunities. Smart matching, proj
 <!-- ║                PINNED OPEN-SOURCE PROJECTS                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-## 📌 Open Source Projects
 
-<div align="center">
-
-<a href="https://github.com/Alpha-ashu/Kanaku">
-  <img src="https://gh-card.dev/repos/Alpha-ashu/Kanaku.svg?fullname=1&link_target=_blank" alt="Kanaku"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Alpha-ashu/candidatex">
-  <img src="https://gh-card.dev/repos/Alpha-ashu/candidatex.svg?fullname=1&link_target=_blank" alt="CandidateX"/>
-</a>
-
-</div>
-
-<br/>
-
-<table>
-<tr>
-<td width="50%">
 
 ### 🔥 Karate API Framework
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
