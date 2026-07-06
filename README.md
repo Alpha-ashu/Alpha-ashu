@@ -1,25 +1,13 @@
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                ANIMATED HEADER — CAPSULE RENDER              ║ -->
+<!-- ║               GLASSMORPHISM HEADER                           ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a1628,60:0d2137,100:1a0a2e&height=240&section=header&text=K.%20Shaik%20Ashraf&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20QA%20Automation%20Engineer%20%7C%20Framework%20Architect%20%7C%20Founder&descAlignY=58&descSize=16&descColor=58A6FF" width="100%" alt="Header"/>
+<img src="./assets/header_glass.svg" width="100%" alt="K. Shaik Ashraf — Senior QA Automation Engineer | Framework Architect | Founder"/>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=600&color=58A6FF&center=true&vCenter=true&repeat=true&width=850&lines=🔬+Enterprise+API+Test+Framework+Architect;⚙️+Java+%7C+Karate+%7C+Python+%7C+Selenium+%7C+Playwright;🏥+Healthcare+%7C+E-Commerce+%7C+AI%2FML+%7C+FinTech;🚀+5%2B+Years+QA+Automation+Excellence;💡+Founder+of+Kanaku+%7C+CandidateX+%7C+OneWork;🤖+Exploring+AI+Testing+%7C+MCP+%7C+RAG+%7C+Agentic+AI" alt="Typing SVG"/>
+<br/>
 
-<br/><br/>
-
-<!-- Status Badges -->
 <img src="https://komarev.com/ghpvc/?username=Alpha-ashu&label=Profile+Views&color=0e75b6&style=flat-square"/>
-&nbsp;
-<img src="https://img.shields.io/badge/ISTQB®%20CTFL-Certified-FFD700?style=flat-square&logo=checkmarx&logoColor=black"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Experience-5%2B%20Years-00C853?style=flat-square"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Open%20To-Opportunities-FF6B35?style=flat-square"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Founder-3%20Products-8A2BE2?style=flat-square"/>
 
 </div>
 
