@@ -2,124 +2,101 @@
   <defs>
     <!-- Background Space Gradient -->
     <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="300" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#05080e"/>
-      <stop offset="100%" stop-color="#090d15"/>
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
 
     <!-- Mesh Grid Pattern -->
-    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.12"/>
+    <pattern id="console_grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="0.8" stroke-opacity="0.25"/>
     </pattern>
-
-    <!-- Skill Bar Gradients -->
-    <linearGradient id="bar_grad" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#10b981"/>
-    </linearGradient>
   </defs>
 
   <!-- BACKGROUND CONTAINER -->
-  <rect width="1200" height="300" rx="8" fill="url(#bg_gradient)" stroke="#1e293b" stroke-width="1.2"/>
-  <rect width="1200" height="300" rx="8" fill="url(#console_grid)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#bg_gradient)" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="1200" height="300" rx="16" fill="url(#console_grid)"/>
 
   <!-- SECTION HEADER -->
-  <line x1="50" y1="35" x2="1150" y2="35" stroke="#1e293b" stroke-width="0.8"/>
-  <text x="600" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#38bdf8" text-anchor="middle" letter-spacing="4">
+  <line x1="50" y1="35" x2="1150" y2="35" stroke="#30363d" stroke-width="1"/>
+  <text x="600" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#8b949e" text-anchor="middle" letter-spacing="4">
     [ SYSTEM_TELEMETRY // EXPERTISE_ANALYSIS ]
   </text>
 
-  <!-- ================= LEFT COLUMN: SKILLS MAPPING ================= -->
+  <!-- ================= LEFT COLUMN: DONUT CHARTS (SaaS style) ================= -->
   <g transform="translate(30, 50)">
-    <rect x="0" y="0" width="550" height="225" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
-    <text x="15" y="20" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b">[ COMPETENCY_BARS // STACK_METRICS ]</text>
-    <line x1="15" y1="28" x2="535" y2="28" stroke="#1e293b" stroke-width="0.8"/>
+    <rect x="0" y="0" width="550" height="225" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+    <text x="20" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">&gt; COMPETENCY_ALLOCATION</text>
+    <line x1="20" y1="32" x2="530" y2="32" stroke="#30363d" stroke-width="0.8"/>
 
-    <!-- Skill items -->
-    <g transform="translate(15, 42)" font-family="monospace" font-size="10.5" font-weight="bold" fill="#8f9cae">
-      <!-- Item 1 -->
-      <text x="0" y="15">JAVA DEVELOPMENT</text>
-      <text x="500" y="15" fill="#ffffff" text-anchor="end">90%</text>
-      <rect x="160" y="6" width="320" height="8" rx="2" fill="#1e293b"/>
-      <rect x="160" y="6" width="288" height="8" rx="2" fill="url(#bar_grad)"/>
-
-      <!-- Item 2 -->
-      <text x="0" y="42">SQL DATABASES</text>
-      <text x="500" y="42" fill="#ffffff" text-anchor="end">85%</text>
-      <rect x="160" y="33" width="320" height="8" rx="2" fill="#1e293b"/>
-      <rect x="160" y="33" width="272" height="8" rx="2" fill="url(#bar_grad)"/>
-
-      <!-- Item 3 -->
-      <text x="0" y="69">TEST AUTOMATION (E2E)</text>
-      <text x="500" y="69" fill="#ffffff" text-anchor="end">80%</text>
-      <rect x="160" y="60" width="320" height="8" rx="2" fill="#1e293b"/>
-      <rect x="160" y="60" width="256" height="8" rx="2" fill="url(#bar_grad)"/>
-
-      <!-- Item 4 -->
-      <text x="0" y="96">API &amp; BACKEND TESTING</text>
-      <text x="500" y="96" fill="#ffffff" text-anchor="end">80%</text>
-      <rect x="160" y="87" width="320" height="8" rx="2" fill="#1e293b"/>
-      <rect x="160" y="87" width="256" height="8" rx="2" fill="url(#bar_grad)"/>
-
-      <!-- Item 5 -->
-      <text x="0" y="123">PYTHON SCRIPTING</text>
-      <text x="500" y="123" fill="#ffffff" text-anchor="end">80%</text>
-      <rect x="160" y="114" width="320" height="8" rx="2" fill="#1e293b"/>
-      <rect x="160" y="114" width="256" height="8" rx="2" fill="url(#bar_grad)"/>
-
-      <!-- Item 6 -->
-      <text x="0" y="150">CI/CD PIPELINES</text>
-      <text x="500" y="150" fill="#ffffff" text-anchor="end">80%</text>
-      <rect x="160" y="141" width="320" height="8" rx="2" fill="#1e293b"/>
-      <rect x="160" y="141" width="256" height="8" rx="2" fill="url(#bar_grad)"/>
+    <!-- Donut 1: UI Automation (80%) -->
+    <g transform="translate(45, 60)">
+      <circle cx="50" cy="50" r="38" stroke="#161b22" stroke-width="8" fill="none"/>
+      <circle cx="50" cy="50" r="38" stroke="#ff5e62" stroke-width="8" fill="none" stroke-dasharray="239" stroke-dashoffset="48"/>
+      <text x="50" y="54" font-family="system-ui, sans-serif" font-weight="900" font-size="13" fill="#ffffff" text-anchor="middle">80%</text>
+      <text x="50" y="112" font-family="system-ui, sans-serif" font-weight="bold" font-size="10.5" fill="#8b949e" text-anchor="middle">UI Automation</text>
     </g>
-    
-    <text x="15" y="212" font-family="monospace" font-size="9" fill="#64748b">AUTO_UPDATE: OFF // CALIBRATED: VERIFIED</text>
+
+    <!-- Donut 2: API Testing (80%) -->
+    <g transform="translate(210, 60)">
+      <circle cx="50" cy="50" r="38" stroke="#161b22" stroke-width="8" fill="none"/>
+      <circle cx="50" cy="50" r="38" stroke="#0070f3" stroke-width="8" fill="none" stroke-dasharray="239" stroke-dashoffset="48"/>
+      <text x="50" y="54" font-family="system-ui, sans-serif" font-weight="900" font-size="13" fill="#ffffff" text-anchor="middle">80%</text>
+      <text x="50" y="112" font-family="system-ui, sans-serif" font-weight="bold" font-size="10.5" fill="#8b949e" text-anchor="middle">API Testing</text>
+    </g>
+
+    <!-- Donut 3: Backend & CI/CD (85%) -->
+    <g transform="translate(375, 60)">
+      <circle cx="50" cy="50" r="38" stroke="#161b22" stroke-width="8" fill="none"/>
+      <circle cx="50" cy="50" r="38" stroke="#10b981" stroke-width="8" fill="none" stroke-dasharray="239" stroke-dashoffset="36"/>
+      <text x="50" y="54" font-family="system-ui, sans-serif" font-weight="900" font-size="13" fill="#ffffff" text-anchor="middle">85%</text>
+      <text x="50" y="112" font-family="system-ui, sans-serif" font-weight="bold" font-size="10.5" fill="#8b949e" text-anchor="middle">Backend &amp; CI/CD</text>
+    </g>
   </g>
 
   <!-- ================= RIGHT COLUMN: CERT & RESEARCH ================= -->
   <!-- 1. Certification (ISTQB) -->
   <g transform="translate(605, 50)">
-    <rect x="0" y="0" width="565" height="105" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
-    <text x="15" y="20" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b">[ VERIFIED_CREDENTIALS ]</text>
-    <line x1="15" y1="28" x2="545" y2="28" stroke="#1e293b" stroke-width="0.8"/>
+    <rect x="0" y="0" width="565" height="105" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+    <text x="20" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">&gt; CERTIFICATIONS</text>
+    <line x1="20" y1="32" x2="545" y2="32" stroke="#30363d" stroke-width="0.8"/>
 
     <!-- Certified block -->
-    <rect x="15" y="40" width="535" height="52" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-    <text x="30" y="60" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#ffffff">ISTQB® Certified Tester</text>
-    <text x="30" y="76" font-family="monospace" font-size="10" fill="#10b981" font-weight="bold">Foundation Level (CTFL) — ID: CERT_992837</text>
-    <text x="520" y="68" font-family="monospace" font-size="9.5" fill="#64748b" text-anchor="end">[ISSUER: ISTQB]</text>
+    <rect x="20" y="42" width="525" height="50" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+    <circle cx="45" cy="67" r="14" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="45" y="72" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">🏅</text>
+    
+    <text x="75" y="62" font-family="system-ui, sans-serif" font-size="13.5" font-weight="900" fill="#ffffff">ISTQB® CTFL Certified</text>
+    <text x="75" y="77" font-family="monospace" font-size="9.5" fill="#10b981" font-weight="bold">Foundation Level Tester [ID: CERT_992837]</text>
   </g>
 
   <!-- 2. Currently Exploring -->
   <g transform="translate(605, 170)">
-    <rect x="0" y="0" width="565" height="105" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
-    <text x="15" y="20" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b">[ RESEARCH_LABS // FUTURE_TECH ]</text>
-    <line x1="15" y1="28" x2="545" y2="28" stroke="#1e293b" stroke-width="0.8"/>
+    <rect x="0" y="0" width="565" height="105" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+    <text x="20" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">&gt; ACTIVE_RESEARCH</text>
+    <line x1="20" y1="32" x2="545" y2="32" stroke="#30363d" stroke-width="0.8"/>
 
-    <!-- Chips (Flat, clean, monospaced tech tags) -->
-    <g transform="translate(15, 42)" font-family="monospace" font-size="9.5" font-weight="bold">
-      <!-- Row 1 -->
-      <rect x="0" y="0" width="95" height="22" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="47.5" y="14" fill="#38bdf8" text-anchor="middle">AI_Testing</text>
-
-      <rect x="105" y="0" width="115" height="22" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="162.5" y="14" fill="#38bdf8" text-anchor="middle">Agentic_QA</text>
-
-      <rect x="230" y="0" width="115" height="22" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="287.5" y="14" fill="#38bdf8" text-anchor="middle">MCP_Protocol</text>
-
-      <rect x="355" y="0" width="115" height="22" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="412.5" y="14" fill="#38bdf8" text-anchor="middle">RAG_Pipelines</text>
+    <!-- Chips (Flat, clean, rounded tags) -->
+    <g transform="translate(20, 44)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="85" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <text x="42.5" y="15" fill="#8b949e" text-anchor="middle">AI Testing</text>
+      <!-- Tag 2 -->
+      <rect x="95" y="0" width="105" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <text x="147.5" y="15" fill="#8b949e" text-anchor="middle">Agentic QA</text>
+      <!-- Tag 3 -->
+      <rect x="210" y="0" width="115" height="22" rx="11" fill="#f0f9ff" stroke="#b3f0ff" stroke-width="0.8"/>
+      <text x="267.5" y="15" fill="#0070f3" text-anchor="middle">MCP Protocol</text>
+      <!-- Tag 4 -->
+      <rect x="335" y="0" width="115" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <text x="392.5" y="15" fill="#8b949e" text-anchor="middle">RAG Pipelines</text>
 
       <!-- Row 2 -->
-      <rect x="0" y="30" width="125" height="22" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="62.5" y="44" fill="#38bdf8" text-anchor="middle">LLM_Integration</text>
-
-      <rect x="135" y="30" width="150" height="22" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="210" y="44" fill="#38bdf8" text-anchor="middle">Playwright_Advanced</text>
-
-      <rect x="295" y="30" width="165" height="22" rx="4" fill="#090d16" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="377.5" y="44" fill="#38bdf8" text-anchor="middle">GitHub_Actions_CI</text>
+      <rect x="0" y="30" width="125" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <text x="62.5" y="45" fill="#8b949e" text-anchor="middle">LLM Integration</text>
+      <rect x="135" y="30" width="145" height="22" rx="11" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <text x="207.5" y="45" fill="#8b949e" text-anchor="middle">Playwright Advanced</text>
+      <rect x="290" y="30" width="140" height="22" rx="11" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="0.8"/>
+      <text x="360" y="45" fill="#10b981" text-anchor="middle">GitHub Actions CI</text>
     </g>
   </g>
 </svg>

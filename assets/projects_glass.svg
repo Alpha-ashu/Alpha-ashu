@@ -2,141 +2,174 @@
   <defs>
     <!-- Background Space Gradient -->
     <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#05080e"/>
-      <stop offset="100%" stop-color="#090d15"/>
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
 
     <!-- Mesh Grid Pattern -->
-    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.12"/>
+    <pattern id="console_grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="0.8" stroke-opacity="0.25"/>
     </pattern>
+
+    <!-- Chart Gradients -->
+    <linearGradient id="chart_orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5e62" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff5e62" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="chart_green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="chart_blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0070f3" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0070f3" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="chart_purple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7928ca" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7928ca" stop-opacity="0.0"/>
+    </linearGradient>
   </defs>
 
   <!-- BACKGROUND CONTAINER -->
-  <rect width="1200" height="320" rx="8" fill="url(#bg_gradient)" stroke="#1e293b" stroke-width="1.2"/>
-  <rect width="1200" height="320" rx="8" fill="url(#console_grid)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#bg_gradient)" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="1200" height="320" rx="16" fill="url(#console_grid)"/>
 
   <!-- SECTION HEADER -->
-  <line x1="50" y1="35" x2="1150" y2="35" stroke="#1e293b" stroke-width="0.8"/>
-  <text x="600" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#38bdf8" text-anchor="middle" letter-spacing="4">
+  <line x1="50" y1="35" x2="1150" y2="35" stroke="#30363d" stroke-width="1"/>
+  <text x="600" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#8b949e" text-anchor="middle" letter-spacing="4">
     [ SYSTEM_SHOWCASE // ENTERPRISE_REPOSITORIES ]
   </text>
 
   <!-- ================= CARD 1: KARATE API FRAMEWORK ================= -->
   <g transform="translate(25, 55)">
-    <!-- Base Card Frame -->
-    <rect x="0" y="0" width="270" height="240" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="270" height="240" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
     
     <!-- Title Section -->
-    <text x="15" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">Karate API Framework</text>
-    <text x="15" y="44" font-family="monospace" font-size="9" font-weight="bold" fill="#38bdf8">ENGINE: REST_API // DATA_SYNC</text>
+    <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">Karate API Framework</text>
+    <text x="20" y="48" font-family="monospace" font-size="9" font-weight="bold" fill="#ff5e62">REST ENGINE // DATA SYNC</text>
 
     <!-- Divider -->
-    <line x1="15" y1="52" x2="255" y2="52" stroke="#1e293b" stroke-width="0.8"/>
+    <line x1="20" y1="58" x2="250" y2="58" stroke="#30363d" stroke-width="0.8"/>
+
+    <!-- Tags -->
+    <g transform="translate(20, 68)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <rect x="0" y="0" width="42" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="21" y="12" fill="#8b949e" text-anchor="middle">Java</text>
+      
+      <rect x="47" y="0" width="54" height="18" rx="9" fill="#fff5ec" stroke="#ffe2cc" stroke-width="0.6"/>
+      <text x="74" y="12" fill="#ff7b5c" text-anchor="middle">Karate</text>
+
+      <rect x="106" y="0" width="54" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="133" y="12" fill="#8b949e" text-anchor="middle">Python</text>
+    </g>
 
     <!-- Description -->
-    <text x="15" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">
-      <tspan x="15" dy="0">Production-grade comparison engine</tspan>
-      <tspan x="15" dy="16">for healthcare legacy migration.</tspan>
-      <tspan x="15" dy="16">Python utilities normalise fields</tspan>
-      <tspan x="15" dy="16">before automated Jenkins checks.</tspan>
+    <text x="20" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#8b949e">
+      <tspan x="20" dy="0">API comparison validation engine</tspan>
+      <tspan x="20" dy="16">for legacy data migration. Python</tspan>
+      <tspan x="20" dy="16">normalisation utilities check 1000s</tspan>
+      <tspan x="20" dy="16">of records daily via Jenkins CI.</tspan>
     </text>
 
-    <!-- Console Output Simulation (Realistic console details) -->
-    <g transform="translate(15, 138)">
-      <rect x="0" y="0" width="240" height="82" rx="4" fill="#000000" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="12" y="16" font-family="monospace" font-size="9" fill="#10b981">Console:~/suite$ run --daily</text>
-      <text x="12" y="30" font-family="monospace" font-size="9" fill="#8f9cae">Records Verified: 2450 / 2450</text>
-      <text x="12" y="44" font-family="monospace" font-size="9" fill="#8f9cae">Status: [ SUCCESS ]  Dur: 142s</text>
-      <text x="12" y="58" font-family="monospace" font-size="9" fill="#64748b">Stack: Java 17 | Karate | Py</text>
-      
-      <!-- Progress Bar Inside Console -->
-      <rect x="12" y="68" width="216" height="4" rx="2" fill="#1e293b"/>
-      <rect x="12" y="68" width="216" height="4" rx="2" fill="#10b981"/>
-    </g>
+    <!-- Wave Graph (Realistic smooth curve) -->
+    <path d="M 2 238 L 2 205 Q 40 185 80 205 T 160 175 T 240 180 T 268 150 L 268 238 Z" fill="url(#chart_orange)"/>
+    <path d="M 2 205 Q 40 185 80 205 T 160 175 T 240 180 T 268 150" fill="none" stroke="#ff5e62" stroke-width="2"/>
+    <circle cx="268" cy="150" r="3.5" fill="#ff5e62"/>
   </g>
 
   <!-- ================= CARD 2: SELENIUM FRAMEWORK ================= -->
   <g transform="translate(315, 55)">
-    <rect x="0" y="0" width="270" height="240" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="270" height="240" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
     
-    <text x="15" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">Selenium Automation</text>
-    <text x="15" y="44" font-family="monospace" font-size="9" font-weight="bold" fill="#38bdf8">ENGINE: UI_SELENIUM // HYBRID</text>
+    <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">Selenium Automation</text>
+    <text x="20" y="48" font-family="monospace" font-size="9" font-weight="bold" fill="#10b981">HYBRID // DATA DRIVEN</text>
 
-    <line x1="15" y1="52" x2="255" y2="52" stroke="#1e293b" stroke-width="0.8"/>
+    <line x1="20" y1="58" x2="250" y2="58" stroke="#30363d" stroke-width="0.8"/>
 
-    <text x="15" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94a3b8">
-      <tspan x="15" dy="0">Enterprise POM/Data-Driven suite.</tspan>
-      <tspan x="15" dy="16">Automating critical payments,</tspan>
-      <tspan x="15" dy="16">shopping carts, &amp; security flows.</tspan>
-      <tspan x="15" dy="16">Features auto-screenshot utility.</tspan>
+    <g transform="translate(20, 68)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <rect x="0" y="0" width="42" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="21" y="12" fill="#8b949e" text-anchor="middle">Java</text>
+      
+      <rect x="47" y="0" width="62" height="18" rx="9" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="0.6"/>
+      <text x="78" y="12" fill="#10b981" text-anchor="middle">Selenium</text>
+
+      <rect x="114" y="0" width="52" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="140" y="12" fill="#8b949e" text-anchor="middle">TestNG</text>
+    </g>
+
+    <text x="20" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#8b949e">
+      <tspan x="20" dy="0">POM/Data-Driven UI Automation</tspan>
+      <tspan x="20" dy="16">suite validating end-to-end checkout</tspan>
+      <tspan x="20" dy="16">and cart modules. Custom failures</tspan>
+      <tspan x="20" dy="16">screenshot &amp; retry architecture.</tspan>
     </text>
 
-    <g transform="translate(15, 138)">
-      <rect x="0" y="0" width="240" height="82" rx="4" fill="#000000" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="12" y="16" font-family="monospace" font-size="9" fill="#10b981">Console:~/selenium$ mvn test</text>
-      <text x="12" y="30" font-family="monospace" font-size="9" fill="#8f9cae">Scenarios Run: 180 | Failures: 0</text>
-      <text x="12" y="44" font-family="monospace" font-size="9" fill="#8f9cae">Build: [ SUCCESS ]   Retries: 1</text>
-      <text x="12" y="58" font-family="monospace" font-size="9" fill="#64748b">Stack: Java 17 | TestNG | Maven</text>
-      
-      <rect x="12" y="68" width="216" height="4" rx="2" fill="#1e293b"/>
-      <rect x="12" y="68" width="216" height="4" rx="2" fill="#10b981"/>
-    </g>
+    <path d="M 2 238 L 2 210 Q 50 230 90 190 T 170 200 T 250 170 T 268 185 L 268 238 Z" fill="url(#chart_green)"/>
+    <path d="M 2 210 Q 50 230 90 190 T 170 200 T 250 170 T 268 185" fill="none" stroke="#10b981" stroke-width="2"/>
+    <circle cx="250" cy="170" r="3.5" fill="#10b981"/>
   </g>
 
   <!-- ================= CARD 3: PLAYWRIGHT FRAMEWORK ================= -->
   <g transform="translate(605, 55)">
-    <rect x="0" y="0" width="270" height="240" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="270" height="240" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
     
-    <text x="15" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">Playwright Framework</text>
-    <text x="15" y="44" font-family="monospace" font-size="9" font-weight="bold" fill="#38bdf8">ENGINE: UI_PLAYWRIGHT // TS</text>
+    <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">Playwright Framework</text>
+    <text x="20" y="48" font-family="monospace" font-size="9" font-weight="bold" fill="#0070f3">ASYNC RUNNER // SHARDED</text>
 
-    <line x1="15" y1="52" x2="255" y2="52" stroke="#1e293b" stroke-width="0.8"/>
+    <line x1="20" y1="58" x2="250" y2="58" stroke="#30363d" stroke-width="0.8"/>
 
-    <text x="15" y="70" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">
-      <tspan x="15" dy="0">Cross-browser test framework with</tspan>
-      <tspan x="15" dy="16">highly parallel test runner execution</tspan>
-      <tspan x="15" dy="16">targeting Chromium/WebKit engines</tspan>
-      <tspan x="15" dy="16">for modern web dashboard interfaces.</tspan>
+    <g transform="translate(20, 68)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <rect x="0" y="0" width="68" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="34" y="12" fill="#8b949e" text-anchor="middle">TypeScript</text>
+      
+      <rect x="73" y="0" width="70" height="18" rx="9" fill="#f0f9ff" stroke="#b3f0ff" stroke-width="0.6"/>
+      <text x="108" y="12" fill="#0070f3" text-anchor="middle">Playwright</text>
+
+      <rect x="148" y="0" width="46" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="171" y="12" fill="#8b949e" text-anchor="middle">CI/CD</text>
+    </g>
+
+    <text x="20" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#8b949e">
+      <tspan x="20" dy="0">High-performance test suite with</tspan>
+      <tspan x="20" dy="16">sharded execution. Targets Chromium,</tspan>
+      <tspan x="20" dy="16">WebKit &amp; Firefox engines with native</tspan>
+      <tspan x="20" dy="16">GitHub Actions reporting workflow.</tspan>
     </text>
 
-    <g transform="translate(15, 138)">
-      <rect x="0" y="0" width="240" height="82" rx="4" fill="#000000" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="12" y="16" font-family="monospace" font-size="9" fill="#10b981">Console:~/pw$ npx playwright test</text>
-      <text x="12" y="30" font-family="monospace" font-size="9" fill="#8f9cae">Workers: 4 | Passed: 124 / 124</text>
-      <text x="12" y="44" font-family="monospace" font-size="9" fill="#8f9cae">Report: HTML | Mode: Headless</text>
-      <text x="12" y="58" font-family="monospace" font-size="9" fill="#64748b">Stack: TypeScript | Playwright</text>
-      
-      <rect x="12" y="68" width="216" height="4" rx="2" fill="#1e293b"/>
-      <rect x="12" y="68" width="216" height="4" rx="2" fill="#10b981"/>
-    </g>
+    <path d="M 2 238 L 2 195 Q 50 170 90 210 T 170 180 T 250 200 T 268 165 L 268 238 Z" fill="url(#chart_blue)"/>
+    <path d="M 2 195 Q 50 170 90 210 T 170 180 T 250 200 T 268 165" fill="none" stroke="#0070f3" stroke-width="2"/>
+    <circle cx="268" cy="165" r="3.5" fill="#0070f3"/>
   </g>
 
   <!-- ================= CARD 4: AI QA RESEARCH ================= -->
   <g transform="translate(895, 55)">
-    <rect x="0" y="0" width="280" height="240" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+    <rect x="0" y="0" width="280" height="240" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
     
-    <text x="15" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">AI-Powered QA Research</text>
-    <text x="15" y="44" font-family="monospace" font-size="9" font-weight="bold" fill="#38bdf8">ENGINE: AGENTIC // LLM // RAG</text>
+    <text x="20" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff">AI-Powered QA Research</text>
+    <text x="20" y="48" font-family="monospace" font-size="9" font-weight="bold" fill="#7928ca">LLM INTEGRATION // RAG</text>
 
-    <line x1="15" y1="52" x2="265" y2="52" stroke="#1e293b" stroke-width="0.8"/>
+    <line x1="20" y1="58" x2="260" y2="58" stroke="#30363d" stroke-width="0.8"/>
 
-    <text x="15" y="70" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">
-      <tspan x="15" dy="0">Exploring AI-driven test script</tspan>
-      <tspan x="15" dy="16">synthesis, Model Context Protocol</tspan>
-      <tspan x="15" dy="16">(MCP) server architectures, and RAG</tspan>
-      <tspan x="15" dy="16">pipelines for advanced test generation.</tspan>
+    <g transform="translate(20, 68)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <rect x="0" y="0" width="50" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="25" y="12" fill="#8b949e" text-anchor="middle">Python</text>
+      
+      <rect x="55" y="0" width="44" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="0.6"/>
+      <text x="77" y="12" fill="#8b949e" text-anchor="middle">AI/ML</text>
+
+      <rect x="104" y="0" width="80" height="18" rx="9" fill="#faf5ff" stroke="#e9d5ff" stroke-width="0.6"/>
+      <text x="144" y="12" fill="#9d4edd" text-anchor="middle">Agentic QA</text>
+    </g>
+
+    <text x="20" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#8b949e">
+      <tspan x="20" dy="0">Exploring AI-driven test script</tspan>
+      <tspan x="20" dy="16">synthesis, Model Context Protocol</tspan>
+      <tspan x="20" dy="16">(MCP) server layers, and RAG pipelines</tspan>
+      <tspan x="20" dy="16">for advanced QA dynamic automation.</tspan>
     </text>
 
-    <g transform="translate(15, 138)">
-      <rect x="0" y="0" width="250" height="82" rx="4" fill="#000000" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="12" y="16" font-family="monospace" font-size="9" fill="#10b981">Console:~/ai$ python agent_run.py</text>
-      <text x="12" y="30" font-family="monospace" font-size="9" fill="#8f9cae">Synthesised Cases: 52 | Acc: 94%</text>
-      <text x="12" y="44" font-family="monospace" font-size="9" fill="#8f9cae">Model: GPT-4o // MCP: Enabled</text>
-      <text x="12" y="58" font-family="monospace" font-size="9" fill="#64748b">Stack: Python | OpenAI | RAG</text>
-      
-      <rect x="12" y="68" width="226" height="4" rx="2" fill="#1e293b"/>
-      <rect x="12" y="68" width="135" height="4" rx="2" fill="#38bdf8"/>
-    </g>
+    <path d="M 2 238 L 2 220 Q 50 200 90 230 T 170 190 T 250 210 T 278 180 L 278 238 Z" fill="url(#chart_purple)"/>
+    <path d="M 2 220 Q 50 200 90 230 T 170 190 T 250 210 T 278 180" fill="none" stroke="#7928ca" stroke-width="2"/>
+    <circle cx="170" cy="190" r="3.5" fill="#7928ca"/>
   </g>
 </svg>

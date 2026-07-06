@@ -1,134 +1,100 @@
-﻿<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Space Gradient -->
-    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="240" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#05080e"/>
-      <stop offset="100%" stop-color="#090d15"/>
+    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
 
     <!-- Mesh Grid Pattern -->
-    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.12"/>
+    <pattern id="console_grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#30363d" stroke-width="0.8" stroke-opacity="0.25"/>
     </pattern>
 
-    <!-- Gradient for flowchart arrows -->
-    <linearGradient id="arrow_grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#10b981"/>
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="glow_grad_orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5e62" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff5e62" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow_grad_blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0070f3" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0070f3" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <!-- 1. BACKGROUND -->
-  <rect width="1200" height="240" rx="8" fill="url(#bg_gradient)" stroke="#1e293b" stroke-width="1.2"/>
-  <rect width="1200" height="240" rx="8" fill="url(#console_grid)"/>
+  <!-- BACKGROUND -->
+  <rect width="1200" height="260" rx="16" fill="url(#bg_gradient)" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="1200" height="260" rx="16" fill="url(#console_grid)"/>
 
-  <!-- Top Console Header Bar -->
-  <rect x="0" y="0" width="1200" height="28" rx="8" fill="#020408" stroke="#1e293b" stroke-width="1"/>
-  <!-- Console window buttons -->
-  <circle cx="20" cy="14" r="3.5" fill="#ef4444"/>
-  <circle cx="32" cy="14" r="3.5" fill="#f59e0b"/>
-  <circle cx="44" cy="14" r="3.5" fill="#10b981"/>
-  <text x="65" y="18" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b" letter-spacing="1">QA_AUTOMATION_CONSOLE_v3.2 // LIVE</text>
-  <text x="1180" y="18" font-family="monospace" font-size="9.5" font-weight="bold" fill="#38bdf8" text-anchor="end" letter-spacing="1">SYSTEM_SECURE</text>
+  <!-- ================= LEFT FLOATING WIDGET (Experience) ================= -->
+  <g transform="translate(45, 55)">
+    <rect x="0" y="0" width="220" height="150" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+    
+    <text x="20" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="800" fill="#8b949e" letter-spacing="1.5">ACTIVE_EXPERIENCE</text>
+    <text x="20" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#ffffff">5+ Years</text>
+    <text x="20" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#58a6ff">Senior QA Engineer</text>
 
-  <!-- 2. OPERATOR IDENTITY (Left) -->
-  <g transform="translate(30, 50)">
-    <!-- Subtitle indicator -->
-    <text x="0" y="15" font-family="monospace" font-size="10" font-weight="bold" fill="#38bdf8" letter-spacing="2">SYSTEM_OPERATOR // IN_DL</text>
-    
-    <!-- Operator Name -->
-    <text x="0" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="900" fill="#ffffff" letter-spacing="-0.5">K. Shaik Ashraf</text>
-    
-    <!-- Professional Roles -->
-    <text x="0" y="78" font-family="monospace" font-size="11.5" font-weight="bold" fill="#94a3b8" letter-spacing="1">ROLE: SENIOR QA AUTOMATION ENGINEER</text>
-    <text x="0" y="96" font-family="monospace" font-size="11.5" font-weight="bold" fill="#94a3b8" letter-spacing="1">DEPT: ENTERPRISE TEST ARCHITECTURE</text>
-    <text x="0" y="114" font-family="monospace" font-size="11.5" font-weight="bold" fill="#94a3b8" letter-spacing="1">CERT: ISTQB® CTFL [ID: CERT_992837]</text>
+    <!-- Mini chart -->
+    <path d="M 120 135 L 140 105 L 160 115 L 180 90 L 200 100 L 218 80 L 218 148 L 120 148 Z" fill="url(#glow_grad_orange)" opacity="0.4"/>
+    <path d="M 120 135 L 140 105 L 160 115 L 180 90 L 200 100 L 218 80" fill="none" stroke="#ff5e62" stroke-width="2"/>
+    <circle cx="218" cy="80" r="3.5" fill="#ff5e62"/>
   </g>
 
-  <!-- 3. CI/CD FLOWCHART BOARD (Center) -->
-  <g transform="translate(480, 58)">
-    <rect x="0" y="0" width="410" height="150" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
-    <text x="15" y="20" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b">[ AUTOMATION_PIPELINE_FLOW ]</text>
-    <line x1="15" y1="28" x2="395" y2="28" stroke="#1e293b" stroke-width="0.8"/>
+  <!-- ================= CENTER NAME & ROLE ================= -->
+  <g transform="translate(300, 55)">
+    <!-- Header decoration -->
+    <rect x="235" y="10" width="130" height="20" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="300" y="23" font-family="monospace" font-size="9" font-weight="bold" fill="#58a6ff" text-anchor="middle">PLATFORM: DEPLOYED</text>
+    
+    <!-- Title -->
+    <text x="300" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">K. Shaik Ashraf</text>
+    
+    <!-- Subtitle -->
+    <text x="300" y="98" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#8b949e" text-anchor="middle" letter-spacing="0.5">
+      Senior QA Automation Engineer &amp; Framework Architect
+    </text>
 
-    <!-- Flowchart Nodes -->
-    <!-- Node 1: COMMIT -->
-    <g transform="translate(15, 45)">
-      <rect x="0" y="0" width="70" height="24" rx="4" fill="#090d16" stroke="#38bdf8" stroke-width="1"/>
-      <text x="35" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">COMMIT</text>
-    </g>
-
-    <!-- Arrow 1 -->
-    <path d="M 85 57 L 110 57" stroke="url(#arrow_grad)" stroke-width="2"/>
-    <path d="M 110 57 L 105 53 M 110 57 L 105 61" stroke="#10b981" stroke-width="1.5"/>
-
-    <!-- Node 2: JENKINS -->
-    <g transform="translate(115, 45)">
-      <rect x="0" y="0" width="85" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
-      <text x="42.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">JENKINS_CI</text>
-    </g>
-
-    <!-- Arrow 2 -->
-    <path d="M 200 57 L 225 57" stroke="url(#arrow_grad)" stroke-width="2"/>
-    <path d="M 225 57 L 220 53 M 225 57 L 220 61" stroke="#10b981" stroke-width="1.5"/>
-
-    <!-- Node 3: SUITE -->
-    <g transform="translate(230, 45)">
-      <rect x="0" y="0" width="85" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
-      <text x="42.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">KARATE_API</text>
-    </g>
-
-    <!-- Arrow 3 -->
-    <path d="M 315 57 L 330 57 L 330 95 L 15 95 L 15 120 L 30 120" stroke="url(#arrow_grad)" stroke-width="1.5" fill="none"/>
-    <path d="M 30 120 L 25 116 M 30 120 L 25 124" stroke="#10b981" stroke-width="1.5"/>
-
-    <!-- Node 4: COMPARE -->
-    <g transform="translate(35, 108)">
-      <rect x="0" y="0" width="105" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
-      <text x="52.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">JSON_COMPARE</text>
-    </g>
-
-    <!-- Arrow 4 -->
-    <path d="M 140 120 L 165 120" stroke="url(#arrow_grad)" stroke-width="2"/>
-    <path d="M 165 120 L 160 116 M 165 120 L 160 124" stroke="#10b981" stroke-width="1.5"/>
-
-    <!-- Node 5: VERIFIED -->
-    <g transform="translate(170, 108)">
-      <rect x="0" y="0" width="85" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
-      <text x="42.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">VERIFIED</text>
-    </g>
-
-    <!-- Flow indicator status -->
-    <text x="395" y="140" font-family="monospace" font-size="9" fill="#10b981" text-anchor="end">STATUS: ACTIVE</text>
+    <!-- Flow line divider -->
+    <line x1="100" y1="125" x2="500" y2="125" stroke="#30363d" stroke-width="1" stroke-dasharray="3,4"/>
+    <circle cx="300" cy="125" r="4.5" fill="#0070f3"/>
+    <circle cx="200" cy="125" r="3.5" fill="#10b981"/>
+    <circle cx="400" cy="125" r="3.5" fill="#ff5e62"/>
   </g>
 
-  <!-- 4. SYSTEM TELEMETRY (Right) -->
-  <g transform="translate(910, 58)">
-    <rect x="0" y="0" width="260" height="150" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
-    <text x="15" y="20" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b">[ ENGINE_TELEMETRY ]</text>
-    <line x1="15" y1="28" x2="245" y2="28" stroke="#1e293b" stroke-width="0.8"/>
+  <!-- ================= RIGHT FLOATING WIDGET (Reliability) ================= -->
+  <g transform="translate(935, 55)">
+    <rect x="0" y="0" width="220" height="150" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+    
+    <text x="20" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="800" fill="#8b949e" letter-spacing="1.5">TEST_RELIABILITY</text>
+    <text x="20" y="65" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#ffffff">99.8%</text>
+    <text x="20" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#58a6ff">1000s of API Records</text>
 
-    <!-- Metrics rows -->
-    <g transform="translate(15, 42)" font-family="monospace" font-size="10.5" font-weight="bold">
-      <!-- Row 1 -->
-      <rect x="0" y="2" width="6" height="6" fill="#10b981"/>
-      <text x="18" y="9" fill="#8f9cae">BUILD: <tspan fill="#ffffff">SUCCESS</tspan></text>
+    <!-- Mini chart -->
+    <path d="M 120 135 L 140 120 L 160 125 L 180 95 L 200 110 L 218 85 L 218 148 L 120 148 Z" fill="url(#glow_grad_blue)" opacity="0.4"/>
+    <path d="M 120 135 L 140 120 L 160 125 L 180 95 L 200 110 L 218 85" fill="none" stroke="#0070f3" stroke-width="2"/>
+    <circle cx="218" cy="85" r="3.5" fill="#0070f3"/>
+  </g>
 
-      <!-- Row 2 -->
-      <rect x="0" y="22" width="6" height="6" fill="#38bdf8"/>
-      <text x="18" y="29" fill="#8f9cae">PIPELINE: <tspan fill="#ffffff">ACTIVE</tspan></text>
+  <!-- ================= BOTTOM CONSOLE BADGES ================= -->
+  <g transform="translate(300, 215)" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">
+    <!-- Badge 1 -->
+    <rect x="0" y="0" width="130" height="26" rx="13" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle cx="15" cy="13" r="4.5" fill="#0070f3"/>
+    <text x="28" y="17" fill="#8b949e">ISTQB® CTFL</text>
 
-      <!-- Row 3 -->
-      <rect x="0" y="42" width="6" height="6" fill="#38bdf8"/>
-      <text x="18" y="49" fill="#8f9cae">REGRESSION: <tspan fill="#ffffff">DAILY</tspan></text>
+    <!-- Badge 2 -->
+    <rect x="145" y="0" width="140" height="26" rx="13" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle cx="15" cy="13" r="4.5" fill="#10b981"/>
+    <text x="28" y="17" fill="#8b949e">Healthcare Domain</text>
 
-      <!-- Row 4 -->
-      <rect x="0" y="62" width="6" height="6" fill="#10b981"/>
-      <text x="18" y="69" fill="#8f9cae">COVERAGE: <tspan fill="#ffffff">92.4%</tspan></text>
+    <!-- Badge 3 -->
+    <rect x="300" y="0" width="140" height="26" rx="13" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle cx="15" cy="13" r="4.5" fill="#ff5e62"/>
+    <text x="28" y="17" fill="#8b949e">Framework Architect</text>
 
-      <!-- Row 5 -->
-      <rect x="0" y="82" width="6" height="6" fill="#38bdf8"/>
-      <text x="18" y="89" fill="#8f9cae">LATENCY: <tspan fill="#ffffff">1.2ms_AVG</tspan></text>
-    </g>
+    <!-- Badge 4 -->
+    <rect x="455" y="0" width="145" height="26" rx="13" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle cx="15" cy="13" r="4.5" fill="#7928ca"/>
+    <text x="28" y="17" fill="#8b949e">Continuous Pipelines</text>
   </g>
 </svg>
