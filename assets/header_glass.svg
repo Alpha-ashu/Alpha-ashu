@@ -1,158 +1,134 @@
-﻿<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Card Gradients -->
-    <linearGradient id="header_dark_bg" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <!-- Background Space Gradient -->
+    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05080e"/>
+      <stop offset="100%" stop-color="#090d15"/>
     </linearGradient>
 
-    <linearGradient id="bar_grad_orange" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ff7b5c"/>
-      <stop offset="100%" stop-color="#ff4500"/>
-    </linearGradient>
+    <!-- Mesh Grid Pattern -->
+    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#334155" stroke-width="0.6" stroke-opacity="0.12"/>
+    </pattern>
 
-    <!-- Specular light sheen for light sections -->
-    <linearGradient id="light_sheen" x1="0" y1="140" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#f8fafc"/>
-    </linearGradient>
-
-    <!-- Mini chart gradients -->
-    <linearGradient id="chart_grad_orange" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ff9f43" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#ff9f43" stop-opacity="0.0"/>
-    </linearGradient>
-    <linearGradient id="chart_grad_green" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0"/>
-    </linearGradient>
-    <linearGradient id="chart_grad_blue" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0.0"/>
-    </linearGradient>
-    <linearGradient id="chart_grad_purple" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0.0"/>
+    <!-- Gradient for flowchart arrows -->
+    <linearGradient id="arrow_grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
   </defs>
 
-  <!-- 1. BASE BACKGROUND FRAME (Light dashboard container style) -->
-  <rect x="0" y="0" width="1200" height="320" rx="16" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- 1. BACKGROUND -->
+  <rect width="1200" height="240" rx="8" fill="url(#bg_gradient)" stroke="#1e293b" stroke-width="1.2"/>
+  <rect width="1200" height="240" rx="8" fill="url(#console_grid)"/>
 
-  <!-- 2. TOP DARK BLUE CONSOLE SECTION (rx="16" top corners only) -->
-  <path d="M 0 16 A 16 16 0 0 1 16 0 L 1184 0 A 16 16 0 0 1 1200 16 L 1200 140 L 0 140 Z" fill="url(#header_dark_bg)"/>
+  <!-- Top Console Header Bar -->
+  <rect x="0" y="0" width="1200" height="28" rx="8" fill="#020408" stroke="#1e293b" stroke-width="1"/>
+  <!-- Console window buttons -->
+  <circle cx="20" cy="14" r="3.5" fill="#ef4444"/>
+  <circle cx="32" cy="14" r="3.5" fill="#f59e0b"/>
+  <circle cx="44" cy="14" r="3.5" fill="#10b981"/>
+  <text x="65" y="18" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b" letter-spacing="1">QA_AUTOMATION_CONSOLE_v3.2 // LIVE</text>
+  <text x="1180" y="18" font-family="monospace" font-size="9.5" font-weight="bold" fill="#38bdf8" text-anchor="end" letter-spacing="1">SYSTEM_SECURE</text>
 
-  <!-- Top Dark Section Content -->
-  <!-- User ID info -->
-  <text x="35" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#38bdf8" letter-spacing="2">SYSTEM_OPERATOR // ACTIVE</text>
-  
-  <!-- Name -->
-  <text x="35" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
-    K. Shaik Ashraf
-  </text>
-  
-  <!-- Role Subtitle -->
-  <text x="35" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#94a3b8" letter-spacing="0.5">
-    Senior QA Automation Engineer &amp; Framework Architect
-  </text>
-
-  <!-- Top Right Mini Bar Chart (Matching reference image header) -->
-  <g transform="translate(850, 20)">
-    <!-- Chart Title -->
-    <text x="310" y="20" font-family="monospace" font-size="9" font-weight="bold" fill="#64748b" text-anchor="end">SYS_METRICS: E2E_PERF</text>
+  <!-- 2. OPERATOR IDENTITY (Left) -->
+  <g transform="translate(30, 50)">
+    <!-- Subtitle indicator -->
+    <text x="0" y="15" font-family="monospace" font-size="10" font-weight="bold" fill="#38bdf8" letter-spacing="2">SYSTEM_OPERATOR // IN_DL</text>
     
-    <!-- Guidelines -->
-    <line x1="0" y1="40" x2="310" y2="40" stroke="#334155" stroke-width="0.8"/>
-    <line x1="0" y1="70" x2="310" y2="70" stroke="#334155" stroke-width="0.8"/>
-    <line x1="0" y1="100" x2="310" y2="100" stroke="#334155" stroke-width="0.8"/>
+    <!-- Operator Name -->
+    <text x="0" y="52" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="900" fill="#ffffff" letter-spacing="-0.5">K. Shaik Ashraf</text>
+    
+    <!-- Professional Roles -->
+    <text x="0" y="78" font-family="monospace" font-size="11.5" font-weight="bold" fill="#94a3b8" letter-spacing="1">ROLE: SENIOR QA AUTOMATION ENGINEER</text>
+    <text x="0" y="96" font-family="monospace" font-size="11.5" font-weight="bold" fill="#94a3b8" letter-spacing="1">DEPT: ENTERPRISE TEST ARCHITECTURE</text>
+    <text x="0" y="114" font-family="monospace" font-size="11.5" font-weight="bold" fill="#94a3b8" letter-spacing="1">CERT: ISTQB® CTFL [ID: CERT_992837]</text>
+  </g>
 
-    <!-- Bar Group -->
-    <g transform="translate(10, 0)">
-      <!-- Bar 1 -->
-      <rect x="0" y="70" width="16" height="30" fill="#475569" rx="2"/>
-      <rect x="0" y="50" width="16" height="50" fill="url(#bar_grad_orange)" rx="2"/>
-      <!-- Bar 2 -->
-      <rect x="35" y="80" width="16" height="20" fill="#475569" rx="2"/>
-      <rect x="35" y="65" width="16" height="35" fill="url(#bar_grad_orange)" rx="2"/>
-      <!-- Bar 3 -->
-      <rect x="70" y="55" width="16" height="45" fill="#475569" rx="2"/>
-      <rect x="70" y="30" width="16" height="70" fill="url(#bar_grad_orange)" rx="2"/>
-      <!-- Bar 4 -->
-      <rect x="105" y="65" width="16" height="35" fill="#475569" rx="2"/>
-      <rect x="105" y="45" width="16" height="55" fill="url(#bar_grad_orange)" rx="2"/>
-      <!-- Bar 5 -->
-      <rect x="140" y="40" width="16" height="60" fill="#475569" rx="2"/>
-      <rect x="140" y="15" width="16" height="85" fill="url(#bar_grad_orange)" rx="2"/>
-      <!-- Bar 6 -->
-      <rect x="175" y="50" width="16" height="50" fill="#475569" rx="2"/>
-      <rect x="175" y="35" width="16" height="65" fill="url(#bar_grad_orange)" rx="2"/>
-      <!-- Bar 7 -->
-      <rect x="210" y="30" width="16" height="70" fill="#475569" rx="2"/>
-      <rect x="210" y="10" width="16" height="90" fill="url(#bar_grad_orange)" rx="2"/>
-      <!-- Bar 8 -->
-      <rect x="245" y="60" width="16" height="40" fill="#475569" rx="2"/>
-      <rect x="245" y="40" width="16" height="60" fill="url(#bar_grad_orange)" rx="2"/>
+  <!-- 3. CI/CD FLOWCHART BOARD (Center) -->
+  <g transform="translate(480, 58)">
+    <rect x="0" y="0" width="410" height="150" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+    <text x="15" y="20" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b">[ AUTOMATION_PIPELINE_FLOW ]</text>
+    <line x1="15" y1="28" x2="395" y2="28" stroke="#1e293b" stroke-width="0.8"/>
+
+    <!-- Flowchart Nodes -->
+    <!-- Node 1: COMMIT -->
+    <g transform="translate(15, 45)">
+      <rect x="0" y="0" width="70" height="24" rx="4" fill="#090d16" stroke="#38bdf8" stroke-width="1"/>
+      <text x="35" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">COMMIT</text>
     </g>
+
+    <!-- Arrow 1 -->
+    <path d="M 85 57 L 110 57" stroke="url(#arrow_grad)" stroke-width="2"/>
+    <path d="M 110 57 L 105 53 M 110 57 L 105 61" stroke="#10b981" stroke-width="1.5"/>
+
+    <!-- Node 2: JENKINS -->
+    <g transform="translate(115, 45)">
+      <rect x="0" y="0" width="85" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
+      <text x="42.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">JENKINS_CI</text>
+    </g>
+
+    <!-- Arrow 2 -->
+    <path d="M 200 57 L 225 57" stroke="url(#arrow_grad)" stroke-width="2"/>
+    <path d="M 225 57 L 220 53 M 225 57 L 220 61" stroke="#10b981" stroke-width="1.5"/>
+
+    <!-- Node 3: SUITE -->
+    <g transform="translate(230, 45)">
+      <rect x="0" y="0" width="85" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
+      <text x="42.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">KARATE_API</text>
+    </g>
+
+    <!-- Arrow 3 -->
+    <path d="M 315 57 L 330 57 L 330 95 L 15 95 L 15 120 L 30 120" stroke="url(#arrow_grad)" stroke-width="1.5" fill="none"/>
+    <path d="M 30 120 L 25 116 M 30 120 L 25 124" stroke="#10b981" stroke-width="1.5"/>
+
+    <!-- Node 4: COMPARE -->
+    <g transform="translate(35, 108)">
+      <rect x="0" y="0" width="105" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
+      <text x="52.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">JSON_COMPARE</text>
+    </g>
+
+    <!-- Arrow 4 -->
+    <path d="M 140 120 L 165 120" stroke="url(#arrow_grad)" stroke-width="2"/>
+    <path d="M 165 120 L 160 116 M 165 120 L 160 124" stroke="#10b981" stroke-width="1.5"/>
+
+    <!-- Node 5: VERIFIED -->
+    <g transform="translate(170, 108)">
+      <rect x="0" y="0" width="85" height="24" rx="4" fill="#090d16" stroke="#10b981" stroke-width="1"/>
+      <text x="42.5" y="15" font-family="monospace" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">VERIFIED</text>
+    </g>
+
+    <!-- Flow indicator status -->
+    <text x="395" y="140" font-family="monospace" font-size="9" fill="#10b981" text-anchor="end">STATUS: ACTIVE</text>
   </g>
 
-  <!-- 3. BOTTOM LIGHT SECTION (Off-white rx="16" bottom corners only) -->
-  <path d="M 0 140 L 1200 140 L 1200 304 A 16 16 0 0 1 1184 320 L 16 320 A 16 16 0 0 1 0 304 Z" fill="url(#light_sheen)"/>
-  <line x1="0" y1="140" x2="1200" y2="140" stroke="#e2e8f0" stroke-width="1.2"/>
+  <!-- 4. SYSTEM TELEMETRY (Right) -->
+  <g transform="translate(910, 58)">
+    <rect x="0" y="0" width="260" height="150" rx="6" fill="#020408" fill-opacity="0.8" stroke="#1e293b" stroke-width="1"/>
+    <text x="15" y="20" font-family="monospace" font-size="9.5" font-weight="bold" fill="#64748b">[ ENGINE_TELEMETRY ]</text>
+    <line x1="15" y1="28" x2="245" y2="28" stroke="#1e293b" stroke-width="0.8"/>
 
-  <!-- 4. BOTTOM DASHBOARD WIDGETS (4 Columns) -->
+    <!-- Metrics rows -->
+    <g transform="translate(15, 42)" font-family="monospace" font-size="10.5" font-weight="bold">
+      <!-- Row 1 -->
+      <rect x="0" y="2" width="6" height="6" fill="#10b981"/>
+      <text x="18" y="9" fill="#8f9cae">BUILD: <tspan fill="#ffffff">SUCCESS</tspan></text>
 
-  <!-- Widget 1: Healthcare Domain -->
-  <g transform="translate(30, 160)">
-    <!-- White Card Base -->
-    <rect x="0" y="0" width="265" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-    <!-- Indicator Pill -->
-    <rect x="15" y="15" width="110" height="22" rx="11" fill="#fff5ec"/>
-    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#ff7b5c">🏥 HEALTHCARE</text>
-    
-    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">Legacy Migration</text>
-    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">E2E System Migration</text>
-    
-    <!-- Mini graph -->
-    <path d="M 135 125 L 160 100 L 185 115 L 210 90 L 235 110 L 250 85" fill="none" stroke="#ff9f43" stroke-width="2"/>
-    <path d="M 135 125 L 160 100 L 185 115 L 210 90 L 235 110 L 250 85 L 250 134 L 135 134 Z" fill="url(#chart_grad_orange)"/>
-  </g>
+      <!-- Row 2 -->
+      <rect x="0" y="22" width="6" height="6" fill="#38bdf8"/>
+      <text x="18" y="29" fill="#8f9cae">PIPELINE: <tspan fill="#ffffff">ACTIVE</tspan></text>
 
-  <!-- Widget 2: Experience -->
-  <g transform="translate(320, 160)">
-    <rect x="0" y="0" width="265" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-    <rect x="15" y="15" width="100" height="22" rx="11" fill="#ecfdf5"/>
-    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#10b981">⚡ EXPERIENCE</text>
-    
-    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">5+ Years Active</text>
-    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">Senior QA Automation</text>
+      <!-- Row 3 -->
+      <rect x="0" y="42" width="6" height="6" fill="#38bdf8"/>
+      <text x="18" y="49" fill="#8f9cae">REGRESSION: <tspan fill="#ffffff">DAILY</tspan></text>
 
-    <path d="M 135 115 L 160 120 L 185 95 L 210 110 L 235 85 L 250 90" fill="none" stroke="#10b981" stroke-width="2"/>
-    <path d="M 135 115 L 160 120 L 185 95 L 210 110 L 235 85 L 250 90 L 250 134 L 135 134 Z" fill="url(#chart_grad_green)"/>
-  </g>
+      <!-- Row 4 -->
+      <rect x="0" y="62" width="6" height="6" fill="#10b981"/>
+      <text x="18" y="69" fill="#8f9cae">COVERAGE: <tspan fill="#ffffff">92.4%</tspan></text>
 
-  <!-- Widget 3: Testing Speed -->
-  <g transform="translate(610, 160)">
-    <rect x="0" y="0" width="265" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-    <rect x="15" y="15" width="115" height="22" rx="11" fill="#f0f9ff"/>
-    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#00d2ff">🚀 VERIFICATION</text>
-    
-    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">99.8% Reliability</text>
-    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">1000s of API Records</text>
-
-    <path d="M 135 125 L 160 110 L 185 120 L 210 95 L 235 90 L 250 75" fill="none" stroke="#00d2ff" stroke-width="2"/>
-    <path d="M 135 125 L 160 110 L 185 120 L 210 95 L 235 90 L 250 75 L 250 134 L 135 134 Z" fill="url(#chart_grad_blue)"/>
-  </g>
-
-  <!-- Widget 4: Certification -->
-  <g transform="translate(900, 160)">
-    <rect x="0" y="0" width="270" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
-    <rect x="15" y="15" width="110" height="22" rx="11" fill="#faf5ff"/>
-    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#9d4edd">🏅 CREDENTIAL</text>
-    
-    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">ISTQB® CTFL</text>
-    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">Verified QA Standard</text>
-
-    <path d="M 135 110 L 160 125 L 185 110 L 210 115 L 235 90 L 250 80" fill="none" stroke="#9d4edd" stroke-width="2"/>
-    <path d="M 135 110 L 160 125 L 185 110 L 210 115 L 235 90 L 250 80 L 250 134 L 135 134 Z" fill="url(#chart_grad_purple)"/>
+      <!-- Row 5 -->
+      <rect x="0" y="82" width="6" height="6" fill="#38bdf8"/>
+      <text x="18" y="89" fill="#8f9cae">LATENCY: <tspan fill="#ffffff">1.2ms_AVG</tspan></text>
+    </g>
   </g>
 </svg>
