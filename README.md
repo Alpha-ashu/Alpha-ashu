@@ -34,7 +34,7 @@ Passion    : Framework Design | Automation | AI Testing
 
 <br/>
 
-- ⚙️ Architecting **Karate + Java** engines validating thousands of API records per regression cycle
+- ⚙️ Architecting **Karate + Java + Python** engines validating thousands of API records per regression cycle
 - 🐍 Building **Python utilities** for JSON comparison — normalising dynamic fields & date formats
 - 🔌 Wiring **Jenkins + Git** for continuous CI/CD test pipelines
 - 🤖 Exploring **AI Testing · MCP · RAG · Agentic AI · LLM-Powered QA**
@@ -78,7 +78,7 @@ Passion    : Framework Design | Automation | AI Testing
 ## 💼 Professional Experience
 
 <details open>
-<summary><b>🏢 &nbsp; Senior QA Automation Engineer (Contract) &nbsp; — &nbsp; Nov 2024 · Present</b></summary>
+<summary><b>🏢 &nbsp; Senior QA Automation Engineer &nbsp; — &nbsp; Nov 2024 · Present</b></summary>
 <br/>
 
 > 🏥 **Domain:** Healthcare — Legacy to Modern System Migration
