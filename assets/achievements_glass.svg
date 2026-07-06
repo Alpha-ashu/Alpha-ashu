@@ -1,113 +1,86 @@
 ﻿<svg width="1200" height="240" viewBox="0 0 1200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Space Gradient -->
-    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="240" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="100%" stop-color="#0a0f1d"/>
-    </linearGradient>
-
-    <!-- Mesh Grid Pattern -->
-    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.04"/>
-    </pattern>
-
-    <!-- Specular Sheen Gradient for Card Glass -->
-    <linearGradient id="glass_sheen" x1="0" y1="0" x2="270" y2="155" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
-      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.01"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.02"/>
+    <!-- Background Gradient -->
+    <linearGradient id="widget_sheen" x1="0" y1="0" x2="270" y2="155" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect width="1200" height="240" fill="url(#bg_gradient)"/>
-  <rect width="1200" height="240" fill="url(#console_grid)"/>
+  <!-- BACKGROUND CONTAINER -->
+  <rect width="1200" height="240" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
 
   <!-- SECTION HEADER -->
-  <line x1="50" y1="35" x2="1150" y2="35" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.15"/>
-  <text x="600" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="4">
+  <line x1="50" y1="35" x2="1150" y2="35" stroke="#cbd5e1" stroke-width="0.8"/>
+  <text x="600" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#475569" text-anchor="middle" letter-spacing="3">
     [ CORE_ACHIEVEMENTS // TELEMETRY_MILESTONES ]
   </text>
 
-  <!-- ================= WIDGET 1: API FRAMEWORK ================= -->
+  <!-- ================= WIDGET 1 ================= -->
   <g transform="translate(25, 55)">
-    <rect x="0" y="0" width="270" height="155" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="155" rx="6" fill="url(#glass_sheen)"/>
-    
-    <!-- Top indicator (Crisp square) -->
-    <rect x="12" y="12" width="6" height="6" fill="#00f2fe"/>
-    <text x="24" y="18" font-family="monospace" font-size="8" fill="#8f9cae">REGRESSION_SYS</text>
+    <rect x="0" y="0" width="270" height="155" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="12" y="12" width="6" height="6" rx="3" fill="#ff7b5c"/>
+    <text x="24" y="17" font-family="monospace" font-size="8.5" fill="#64748b">REGRESSION_SPEED</text>
 
-    <!-- Content -->
-    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff">Enterprise API Suite</text>
-    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#8f9cae">Healthcare Migration Engine</text>
+    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14.5" font-weight="900" fill="#0f172a">Enterprise API Suite</text>
+    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Healthcare Migration Engine</text>
 
-    <text x="15" y="90" font-family="monospace" font-size="11.5" font-weight="bold" fill="#00f2fe">MANUAL CYCLES ELIMINATED</text>
-    <text x="15" y="105" font-family="system-ui, sans-serif" font-size="10.5" fill="#8f9cae">
-      <tspan x="15" dy="0">Replaced manual processes with</tspan>
-      <tspan x="15" dy="14">automated Karate verification.</tspan>
-    </text>
+    <!-- Progress Indicator Bar -->
+    <rect x="15" y="80" width="240" height="8" rx="4" fill="#f1f5f9"/>
+    <rect x="15" y="80" width="216" height="8" rx="4" fill="#ff7b5c"/>
+    <text x="15" y="112" font-family="monospace" font-size="11" font-weight="bold" fill="#ff7b5c">&gt; MANUAL CYCLE ELIMINATED</text>
+    <text x="255" y="112" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">90%</text>
 
-    <!-- Bottom border indicator tag -->
-    <line x1="0" y1="155" x2="60" y2="155" stroke="#00f2fe" stroke-width="2"/>
+    <line x1="0" y1="155" x2="60" y2="155" stroke="#ff7b5c" stroke-width="2"/>
   </g>
 
-  <!-- ================= WIDGET 2: JSON ENGINE ================= -->
+  <!-- ================= WIDGET 2 ================= -->
   <g transform="translate(315, 55)">
-    <rect x="0" y="0" width="270" height="155" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#00f5a0" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="155" rx="6" fill="url(#glass_sheen)"/>
-    
-    <rect x="12" y="12" width="6" height="6" fill="#00f5a0"/>
-    <text x="24" y="18" font-family="monospace" font-size="8" fill="#8f9cae">VERIFICATION_STAT</text>
+    <rect x="0" y="0" width="270" height="155" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="12" y="12" width="6" height="6" rx="3" fill="#10b981"/>
+    <text x="24" y="17" font-family="monospace" font-size="8.5" fill="#64748b">VERIFICATION_VOL</text>
 
-    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff">JSON Matcher Engine</text>
-    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#8f9cae">Dynamic Normalisation Utilities</text>
+    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14.5" font-weight="900" fill="#0f172a">JSON Matcher Engine</text>
+    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Dynamic Normalisation Utilities</text>
 
-    <text x="15" y="90" font-family="monospace" font-size="11.5" font-weight="bold" fill="#00f5a0">1000s OF RECORDS / RUN</text>
-    <text x="15" y="105" font-family="system-ui, sans-serif" font-size="10.5" fill="#8f9cae">
-      <tspan x="15" dy="0">High-fidelity automated checks</tspan>
-      <tspan x="15" dy="14">running daily in CI/CD pipeline.</tspan>
-    </text>
+    <rect x="15" y="80" width="240" height="8" rx="4" fill="#f1f5f9"/>
+    <rect x="15" y="80" width="228" height="8" rx="4" fill="#10b981"/>
+    <text x="15" y="112" font-family="monospace" font-size="11" font-weight="bold" fill="#10b981">&gt; 1000s OF RECORDS / RUN</text>
+    <text x="255" y="112" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">95%</text>
 
-    <line x1="0" y1="155" x2="60" y2="155" stroke="#00f5a0" stroke-width="2"/>
+    <line x1="0" y1="155" x2="60" y2="155" stroke="#10b981" stroke-width="2"/>
   </g>
 
-  <!-- ================= WIDGET 3: EMPLOYEE OF THE QUARTER ================= -->
+  <!-- ================= WIDGET 3 ================= -->
   <g transform="translate(605, 55)">
-    <rect x="0" y="0" width="270" height="155" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#ff9f43" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="155" rx="6" fill="url(#glass_sheen)"/>
-    
-    <rect x="12" y="12" width="6" height="6" fill="#ff9f43"/>
-    <text x="24" y="18" font-family="monospace" font-size="8" fill="#8f9cae">AWARD_RECOGNITION</text>
+    <rect x="0" y="0" width="270" height="155" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="12" y="12" width="6" height="6" rx="3" fill="#00d2ff"/>
+    <text x="24" y="17" font-family="monospace" font-size="8.5" fill="#64748b">AWARD_RECOGNITION</text>
 
-    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff">Employee of the Quarter</text>
-    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#8f9cae">Process Optimization Excellence</text>
+    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14.5" font-weight="900" fill="#0f172a">Employee of the Quarter</text>
+    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Process Optimization Award</text>
 
-    <text x="15" y="90" font-family="monospace" font-size="11.5" font-weight="bold" fill="#ff9f43">AI/ML QA domain improvements</text>
-    <text x="15" y="105" font-family="system-ui, sans-serif" font-size="10.5" fill="#8f9cae">
-      <tspan x="15" dy="0">Recognised for outstanding contributions</tspan>
-      <tspan x="15" dy="14">to testing AI integration layers.</tspan>
-    </text>
+    <rect x="15" y="80" width="240" height="8" rx="4" fill="#f1f5f9"/>
+    <rect x="15" y="80" width="204" height="8" rx="4" fill="#00d2ff"/>
+    <text x="15" y="112" font-family="monospace" font-size="11" font-weight="bold" fill="#00d2ff">&gt; AI/ML QA PERFORMANCE</text>
+    <text x="255" y="112" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">85%</text>
 
-    <line x1="0" y1="155" x2="60" y2="155" stroke="#ff9f43" stroke-width="2"/>
+    <line x1="0" y1="155" x2="60" y2="155" stroke="#00d2ff" stroke-width="2"/>
   </g>
 
-  <!-- ================= WIDGET 4: TEAM LEADERSHIP ================= -->
+  <!-- ================= WIDGET 4 ================= -->
   <g transform="translate(895, 55)">
-    <rect x="0" y="0" width="280" height="155" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="280" height="155" rx="6" fill="url(#glass_sheen)"/>
-    
-    <rect x="12" y="12" width="6" height="6" fill="#9d4edd"/>
-    <text x="24" y="18" font-family="monospace" font-size="8" fill="#8f9cae">LEADERSHIP_SCOPE</text>
+    <rect x="0" y="0" width="280" height="155" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="12" y="12" width="6" height="6" rx="3" fill="#9d4edd"/>
+    <text x="24" y="17" font-family="monospace" font-size="8.5" fill="#64748b">LEADERSHIP_SCOPE</text>
 
-    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff">E2E Module Ownership</text>
-    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#8f9cae">Independent Delivery Lead</text>
+    <text x="15" y="44" font-family="system-ui, sans-serif" font-size="14.5" font-weight="900" fill="#0f172a">E2E Module Ownership</text>
+    <text x="15" y="60" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Independent Delivery Lead</text>
 
-    <text x="15" y="90" font-family="monospace" font-size="11.5" font-weight="bold" fill="#9d4edd">MODULE QUALITY GUARDIAN</text>
-    <text x="15" y="105" font-family="system-ui, sans-serif" font-size="10.5" fill="#8f9cae">
-      <tspan x="15" dy="0">Leading defect triage, framework</tspan>
-      <tspan x="15" dy="14">architecture, and stakeholder sync.</tspan>
-    </text>
+    <rect x="15" y="80" width="250" height="8" rx="4" fill="#f1f5f9"/>
+    <rect x="15" y="80" width="225" height="8" rx="4" fill="#9d4edd"/>
+    <text x="15" y="112" font-family="monospace" font-size="11" font-weight="bold" fill="#9d4edd">&gt; STAKEHOLDER MANAGEMENT</text>
+    <text x="265" y="112" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#0f172a" text-anchor="end">90%</text>
 
     <line x1="0" y1="155" x2="60" y2="155" stroke="#9d4edd" stroke-width="2"/>
   </g>

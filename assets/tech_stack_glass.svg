@@ -1,157 +1,135 @@
 ﻿<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Space Gradient -->
-    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="380" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="100%" stop-color="#0a0f1d"/>
-    </linearGradient>
-
-    <!-- Mesh Grid Pattern -->
-    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.04"/>
-    </pattern>
-
-    <!-- Specular Sheen Gradient for Card Glass -->
-    <linearGradient id="glass_sheen" x1="0" y1="0" x2="270" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
-      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.01"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.02"/>
+    <!-- Background Gradient -->
+    <linearGradient id="widget_sheen" x1="0" y1="0" x2="270" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect width="1200" height="380" fill="url(#bg_gradient)"/>
-  <rect width="1200" height="380" fill="url(#console_grid)"/>
+  <!-- BACKGROUND CONTAINER -->
+  <rect width="1200" height="380" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
 
   <!-- SECTION HEADER -->
-  <line x1="50" y1="35" x2="1150" y2="35" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.15"/>
-  <text x="600" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="4">
+  <line x1="50" y1="35" x2="1150" y2="35" stroke="#cbd5e1" stroke-width="0.8"/>
+  <text x="600" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#475569" text-anchor="middle" letter-spacing="4">
     [ SYSTEM_CAPABILITIES // TECH_STACK_MATRIX ]
   </text>
 
   <!-- ================= MODULE 1: LANGUAGES ================= -->
   <g transform="translate(25, 55)">
-    <rect x="0" y="0" width="270" height="180" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="180" rx="6" fill="url(#glass_sheen)"/>
-    
-    <text x="15" y="25" font-family="monospace" font-size="10" font-weight="bold" fill="#00f2fe">&gt; LANGUAGES</text>
-    <line x1="15" y1="32" x2="255" y2="32" stroke="#00f2fe" stroke-width="0.5" stroke-opacity="0.2"/>
+    <rect x="0" y="0" width="270" height="180" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="20" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#0f172a">&gt; LANGUAGES</text>
+    <line x1="20" y1="32" x2="250" y2="32" stroke="#e2e8f0" stroke-width="0.8"/>
 
     <!-- Tech items -->
-    <g transform="translate(15, 45)">
-      <!-- Item 1 -->
-      <rect x="0" y="0" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">☕ Java</text>
-      <!-- Item 2 -->
-      <rect x="125" y="0" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🐍 Python</text>
-      <!-- Item 3 -->
-      <rect x="0" y="32" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🟨 JavaScript</text>
-      <!-- Item 4 -->
-      <rect x="125" y="32" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🟦 TypeScript</text>
+    <g transform="translate(20, 45)" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#0f172a">
+      <rect x="0" y="0" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="16">☕ Java</text>
+      
+      <rect x="120" y="0" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="16">🐍 Python</text>
+      
+      <rect x="0" y="32" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="48">🟨 JavaScript</text>
+      
+      <rect x="120" y="32" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="48">🟦 TypeScript</text>
     </g>
 
-    <text x="15" y="125" font-family="monospace" font-size="9" fill="#8f9cae">COMPILER_OPTS: TARGET_17</text>
-    <text x="15" y="140" font-family="monospace" font-size="9" fill="#8f9cae">RUNTIME_ENV: NODE_v20 // PY_3.11</text>
-    <line x1="0" y1="180" x2="50" y2="180" stroke="#00f2fe" stroke-width="2"/>
+    <text x="20" y="128" font-family="monospace" font-size="9" fill="#64748b">COMPILER_OPTS: TARGET_17</text>
+    <text x="20" y="142" font-family="monospace" font-size="9" fill="#64748b">RUNTIME_ENV: NODE_v20 // PY_3.11</text>
+    <line x1="0" y1="180" x2="50" y2="180" stroke="#00d2ff" stroke-width="2"/>
   </g>
 
   <!-- ================= MODULE 2: UI AUTOMATION ================= -->
   <g transform="translate(315, 55)">
-    <rect x="0" y="0" width="270" height="180" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#00f5a0" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="180" rx="6" fill="url(#glass_sheen)"/>
-    
-    <text x="15" y="25" font-family="monospace" font-size="10" font-weight="bold" fill="#00f5a0">&gt; UI_AUTOMATION</text>
-    <line x1="15" y1="32" x2="255" y2="32" stroke="#00f5a0" stroke-width="0.5" stroke-opacity="0.2"/>
+    <rect x="0" y="0" width="270" height="180" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="20" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#0f172a">&gt; UI_AUTOMATION</text>
+    <line x1="20" y1="32" x2="250" y2="32" stroke="#e2e8f0" stroke-width="0.8"/>
 
-    <!-- Tech items -->
-    <g transform="translate(15, 45)">
-      <rect x="0" y="0" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🌐 Selenium</text>
-      <rect x="125" y="0" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🎭 Playwright</text>
-      <rect x="0" y="32" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🧪 TestNG</text>
-      <rect x="125" y="32" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🥒 Cucumber</text>
-      <rect x="0" y="64" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="80" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">📱 Appium</text>
-      <rect x="125" y="64" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="80" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">📐 Design POM</text>
+    <g transform="translate(20, 45)" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#0f172a">
+      <rect x="0" y="0" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="16">🌐 Selenium</text>
+      <rect x="120" y="0" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="16">🎭 Playwright</text>
+      
+      <rect x="0" y="32" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="48">🧪 TestNG</text>
+      <rect x="120" y="32" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="48">🥒 Cucumber</text>
+
+      <rect x="0" y="64" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="80">📱 Appium</text>
+      <rect x="120" y="64" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="80">📐 POM Design</text>
     </g>
 
-    <text x="15" y="160" font-family="monospace" font-size="9" fill="#8f9cae">BROWSERS: CHROMIUM // WEBKIT // FF</text>
-    <line x1="0" y1="180" x2="50" y2="180" stroke="#00f5a0" stroke-width="2"/>
+    <line x1="0" y1="180" x2="50" y2="180" stroke="#10b981" stroke-width="2"/>
   </g>
 
   <!-- ================= MODULE 3: API & BACKEND ================= -->
   <g transform="translate(605, 55)">
-    <rect x="0" y="0" width="270" height="180" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#ff9f43" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="180" rx="6" fill="url(#glass_sheen)"/>
-    
-    <text x="15" y="25" font-family="monospace" font-size="10" font-weight="bold" fill="#ff9f43">&gt; API_BACKEND</text>
-    <line x1="15" y1="32" x2="255" y2="32" stroke="#ff9f43" stroke-width="0.5" stroke-opacity="0.2"/>
+    <rect x="0" y="0" width="270" height="180" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="20" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#0f172a">&gt; API_BACKEND</text>
+    <line x1="20" y1="32" x2="250" y2="32" stroke="#e2e8f0" stroke-width="0.8"/>
 
-    <!-- Tech items -->
-    <g transform="translate(15, 45)">
-      <rect x="0" y="0" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">⚡ Karate DSL</text>
-      <rect x="125" y="0" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">📬 Postman</text>
-      <rect x="0" y="32" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🔗 REST Assured</text>
-      <rect x="125" y="32" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">📖 Swagger</text>
-      <rect x="0" y="64" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="80" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🔌 JSON Schema</text>
-      <rect x="125" y="64" width="115" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="137" y="80" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🚀 API Gateways</text>
+    <g transform="translate(20, 45)" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#0f172a">
+      <rect x="0" y="0" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="16">⚡ Karate DSL</text>
+      <rect x="120" y="0" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="16">📬 Postman</text>
+      
+      <rect x="0" y="32" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="48">🔗 REST Assured</text>
+      <rect x="120" y="32" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="48">📖 Swagger</text>
+
+      <rect x="0" y="64" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="80">🔌 JSON Schema</text>
+      <rect x="120" y="64" width="110" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="135" y="80">🚀 Insomnia</text>
     </g>
 
-    <text x="15" y="160" font-family="monospace" font-size="9" fill="#8f9cae">SERVICES: REST // SOAP // GRAPHQL</text>
     <line x1="0" y1="180" x2="50" y2="180" stroke="#ff9f43" stroke-width="2"/>
   </g>
 
   <!-- ================= MODULE 4: DEVOPS & TOOLS ================= -->
   <g transform="translate(895, 55)">
-    <rect x="0" y="0" width="280" height="180" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="280" height="180" rx="6" fill="url(#glass_sheen)"/>
-    
-    <text x="15" y="25" font-family="monospace" font-size="10" font-weight="bold" fill="#9d4edd">&gt; DEVOPS_TOOLS</text>
-    <line x1="15" y1="32" x2="265" y2="32" stroke="#9d4edd" stroke-width="0.5" stroke-opacity="0.2"/>
+    <rect x="0" y="0" width="280" height="180" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
+    <text x="20" y="25" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#0f172a">&gt; DEVOPS_TOOLS</text>
+    <line x1="20" y1="32" x2="260" y2="32" stroke="#e2e8f0" stroke-width="0.8"/>
 
-    <!-- Tech items -->
-    <g transform="translate(15, 45)">
-      <rect x="0" y="0" width="120" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🔧 Jenkins CI</text>
-      <rect x="130" y="0" width="120" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="142" y="16" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🐙 Git / GitHub</text>
-      <rect x="0" y="32" width="120" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">📦 Docker</text>
-      <rect x="130" y="32" width="120" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="142" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🛠️ Maven / Gradle</text>
-      <rect x="0" y="64" width="120" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="12" y="80" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">🗄️ SQL / MySQL</text>
-      <rect x="130" y="64" width="120" height="24" rx="4" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-      <text x="142" y="80" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff" font-weight="bold">📋 Jira / Agile</text>
+    <g transform="translate(20, 45)" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#0f172a">
+      <rect x="0" y="0" width="115" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="16">🔧 Jenkins CI</text>
+      <rect x="125" y="0" width="115" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="140" y="16">🐙 Git / GitHub</text>
+      
+      <rect x="0" y="32" width="115" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="48">📦 Docker</text>
+      <rect x="125" y="32" width="115" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="140" y="48">🛠️ Maven Build</text>
+
+      <rect x="0" y="64" width="115" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="15" y="80">🗄️ SQL / MySQL</text>
+      <rect x="125" y="64" width="115" height="24" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="140" y="80">📋 Jira / Agile</text>
     </g>
 
-    <text x="15" y="160" font-family="monospace" font-size="9" fill="#8f9cae">PIPELINE: GITHUB ACTIONS // AGENTIC</text>
     <line x1="0" y1="180" x2="50" y2="180" stroke="#9d4edd" stroke-width="2"/>
   </g>
 
   <!-- ================= BOTTOM PANEL: TEST COVERAGE ================= -->
   <g transform="translate(25, 250)">
-    <rect x="0" y="0" width="1150" height="100" rx="6" fill="#0b1120" fill-opacity="0.85" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.3"/>
-    <rect x="0" y="0" width="1150" height="100" rx="6" fill="url(#glass_sheen)"/>
+    <rect x="0" y="0" width="1150" height="100" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="0" y="0" width="1150" height="100" rx="12" fill="url(#widget_sheen)"/>
     
-    <text x="20" y="22" font-family="monospace" font-size="10.5" font-weight="bold" fill="#58a6ff">[ TEST_COVERAGE_PROTOCOLS ]</text>
-    <line x1="20" y1="28" x2="1130" y2="28" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="20" y="22" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="10.5" fill="#475569">[ TEST_COVERAGE_PROTOCOLS ]</text>
+    <line x1="20" y1="28" x2="1130" y2="28" stroke="#cbd5e1" stroke-width="0.8"/>
 
-    <!-- 12 coverage nodes side by side -->
-    <g transform="translate(20, 42)" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">
+    <!-- Grid labels -->
+    <g transform="translate(20, 42)" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#0f172a">
       <!-- Col 1 -->
       <text x="0" y="12">✓ Functional Testing</text>
       <text x="0" y="32">✓ Regression Testing</text>

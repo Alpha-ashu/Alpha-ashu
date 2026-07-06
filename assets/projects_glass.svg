@@ -1,80 +1,78 @@
 ﻿<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Space Gradient -->
-    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="100%" stop-color="#0a0f1d"/>
+    <!-- Background Frame Style -->
+    <linearGradient id="widget_sheen" x1="0" y1="0" x2="270" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
 
-    <!-- Mesh Grid Pattern -->
-    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.04"/>
-    </pattern>
-
-    <!-- Specular Sheen Gradient for Card Glass -->
-    <linearGradient id="glass_sheen" x1="0" y1="0" x2="270" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
-      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.01"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.03"/>
+    <!-- Wave Gradients -->
+    <linearGradient id="area_orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff7b5c" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff7b5c" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="area_green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="area_blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="area_purple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0.05"/>
     </linearGradient>
 
     <!-- Header line gradient -->
     <linearGradient id="hdrLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#58a6ff" stop-opacity="0.4"/>
-      <stop offset="70%" stop-color="#00f5a0" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#00f5a0" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#cbd5e1" stop-opacity="0.1"/>
+      <stop offset="30%" stop-color="#94a3b8" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#94a3b8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.1"/>
     </linearGradient>
   </defs>
 
-  <!-- BACKGROUND -->
-  <rect width="1200" height="420" fill="url(#bg_gradient)"/>
-  <rect width="1200" height="420" fill="url(#console_grid)"/>
+  <!-- BACKGROUND CONTAINER -->
+  <rect width="1200" height="420" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
 
   <!-- SECTION HEADER -->
   <line x1="50" y1="40" x2="1150" y2="40" stroke="url(#hdrLine)" stroke-width="0.8"/>
-  <text x="600" y="32" font-family="monospace" font-size="11" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="4">
-    [ SYSTEM_SHOWCASE // ENTERPRISE_REPOSITORIES ]
+  <text x="600" y="32" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#475569" text-anchor="middle" letter-spacing="3">
+    [ REPOSITORY_TELEMETRY // SYSTEM_SHOWCASE ]
   </text>
+  <line x1="580" y1="40" x2="620" y2="40" stroke="#475569" stroke-width="2"/>
 
   <!-- ================= CARD 1: KARATE API FRAMEWORK ================= -->
   <g transform="translate(25, 70)">
-    <!-- Base Glass Box -->
-    <rect x="0" y="0" width="270" height="320" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#00f2fe" stroke-width="1.2" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="320" rx="6" fill="url(#glass_sheen)"/>
+    <!-- Base Card -->
+    <rect x="0" y="0" width="270" height="320" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
     
-    <!-- Top Console Header Bar -->
-    <rect x="0" y="0" width="270" height="24" rx="6" fill="#030712" fill-opacity="0.9" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.15"/>
-    <circle cx="15" cy="12" r="3.5" fill="#ef4444"/>
-    <circle cx="25" cy="12" r="3.5" fill="#f59e0b"/>
-    <circle cx="35" cy="12" r="3.5" fill="#10b981"/>
-    <text x="255" y="15" font-family="monospace" font-size="8" font-weight="bold" fill="#00f2fe" text-anchor="end">[PORT: 8080]</text>
-    
-    <!-- Content -->
-    <text x="20" y="55" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#ffffff">Karate API Framework</text>
-    <text x="20" y="71" font-family="monospace" font-size="9" fill="#00f2fe" letter-spacing="1">REST ENGINE // DATA SYNC</text>
+    <!-- Title Section -->
+    <text x="20" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#0f172a">Karate API Framework</text>
+    <text x="20" y="52" font-family="monospace" font-size="9" font-weight="bold" fill="#ff7b5c">REST ENGINE // DATA SYNC</text>
 
-    <!-- Visual divider -->
-    <line x1="20" y1="81" x2="250" y2="81" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <!-- Divider -->
+    <line x1="20" y1="62" x2="250" y2="62" stroke="#e2e8f0" stroke-width="0.8"/>
 
-    <!-- Badges Grid -->
-    <g transform="translate(20, 91)">
+    <!-- Tags -->
+    <g transform="translate(20, 72)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
       <!-- Tag 1 -->
-      <rect x="0" y="0" width="46" height="18" rx="3" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="23" y="12" font-family="monospace" font-size="9" fill="#58a6ff" text-anchor="middle">Java</text>
+      <rect x="0" y="0" width="46" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="23" y="12" fill="#475569" text-anchor="middle">Java</text>
       <!-- Tag 2 -->
-      <rect x="52" y="0" width="56" height="18" rx="3" fill="#060a13" stroke="#00f2fe" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="80" y="12" font-family="monospace" font-size="9" fill="#00f2fe" text-anchor="middle">Karate</text>
+      <rect x="52" y="0" width="56" height="18" rx="9" fill="#fff5ec" stroke="#ffe2cc" stroke-width="0.6"/>
+      <text x="80" y="12" fill="#ff7b5c" text-anchor="middle">Karate</text>
       <!-- Tag 3 -->
-      <rect x="114" y="0" width="56" height="18" rx="3" fill="#060a13" stroke="#00f5a0" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="142" y="12" font-family="monospace" font-size="9" fill="#00f5a0" text-anchor="middle">Python</text>
+      <rect x="114" y="0" width="56" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="142" y="12" fill="#475569" text-anchor="middle">Python</text>
       <!-- Tag 4 -->
-      <rect x="176" y="0" width="60" height="18" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="206" y="12" font-family="monospace" font-size="9" fill="#9d4edd" text-anchor="middle">Jenkins</text>
+      <rect x="176" y="0" width="60" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="206" y="12" fill="#475569" text-anchor="middle">Jenkins</text>
     </g>
 
     <!-- Description -->
-    <text x="20" y="136" font-family="system-ui, sans-serif" font-size="11.5" fill="#8f9cae">
+    <text x="20" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#475569">
       <tspan x="20" dy="0">Production-grade REST API</tspan>
       <tspan x="20" dy="18">comparison engine designed for</tspan>
       <tspan x="20" dy="18">healthcare migration. Python</tspan>
@@ -83,42 +81,33 @@
       <tspan x="20" dy="18">of critical data records.</tspan>
     </text>
 
-    <!-- Telemetry Graph Line (No glow, sharp SVG line) -->
-    <path d="M 20 280 L 70 265 L 120 275 L 170 255 L 220 260 L 250 240" fill="none" stroke="#00f2fe" stroke-width="1.5"/>
-    <rect x="247" y="237" width="6" height="6" fill="#00f2fe"/>
-
-    <!-- Bottom border segment -->
-    <line x1="20" y1="305" x2="250" y2="305" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Area Wave Graph (Matching left orange/red graphs in reference image) -->
+    <path d="M 2 318 L 2 240 Q 40 220 70 250 T 140 260 T 210 210 T 268 230 L 268 318 Z" fill="url(#area_orange)"/>
+    <path d="M 2 240 Q 40 220 70 250 T 140 260 T 210 210 T 268 230" fill="none" stroke="#ff7b5c" stroke-width="2.5"/>
+    <circle cx="210" cy="210" r="3.5" fill="#ff7b5c"/>
   </g>
 
   <!-- ================= CARD 2: SELENIUM FRAMEWORK ================= -->
   <g transform="translate(315, 70)">
-    <rect x="0" y="0" width="270" height="320" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#00f5a0" stroke-width="1.2" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="320" rx="6" fill="url(#glass_sheen)"/>
+    <rect x="0" y="0" width="270" height="320" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
     
-    <rect x="0" y="0" width="270" height="24" rx="6" fill="#030712" fill-opacity="0.9" stroke="#00f5a0" stroke-width="1" stroke-opacity="0.15"/>
-    <circle cx="15" cy="12" r="3.5" fill="#ef4444"/>
-    <circle cx="25" cy="12" r="3.5" fill="#f59e0b"/>
-    <circle cx="35" cy="12" r="3.5" fill="#10b981"/>
-    <text x="255" y="15" font-family="monospace" font-size="8" font-weight="bold" fill="#00f5a0" text-anchor="end">[PORT: 4444]</text>
-    
-    <text x="20" y="55" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#ffffff">Selenium Automation</text>
-    <text x="20" y="71" font-family="monospace" font-size="9" fill="#00f5a0" letter-spacing="1">HYBRID // DATA DRIVEN</text>
+    <text x="20" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#0f172a">Selenium Automation</text>
+    <text x="20" y="52" font-family="monospace" font-size="9" font-weight="bold" fill="#10b981">HYBRID // DATA DRIVEN</text>
 
-    <line x1="20" y1="81" x2="250" y2="81" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="20" y1="62" x2="250" y2="62" stroke="#e2e8f0" stroke-width="0.8"/>
 
-    <g transform="translate(20, 91)">
-      <rect x="0" y="0" width="46" height="18" rx="3" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="23" y="12" font-family="monospace" font-size="9" fill="#58a6ff" text-anchor="middle">Java</text>
-      <rect x="52" y="0" width="65" height="18" rx="3" fill="#060a13" stroke="#00f5a0" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="84" y="12" font-family="monospace" font-size="9" fill="#00f5a0" text-anchor="middle">Selenium</text>
-      <rect x="123" y="0" width="56" height="18" rx="3" fill="#060a13" stroke="#ffbd2e" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="151" y="12" font-family="monospace" font-size="9" fill="#ffbd2e" text-anchor="middle">TestNG</text>
-      <rect x="185" y="0" width="50" height="18" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="210" y="12" font-family="monospace" font-size="9" fill="#9d4edd" text-anchor="middle">Maven</text>
+    <g transform="translate(20, 72)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <rect x="0" y="0" width="46" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="23" y="12" fill="#475569" text-anchor="middle">Java</text>
+      <rect x="52" y="0" width="65" height="18" rx="9" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="0.6"/>
+      <text x="84" y="12" fill="#10b981" text-anchor="middle">Selenium</text>
+      <rect x="123" y="0" width="56" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="151" y="12" fill="#475569" text-anchor="middle">TestNG</text>
+      <rect x="185" y="0" width="50" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="210" y="12" fill="#475569" text-anchor="middle">Maven</text>
     </g>
 
-    <text x="20" y="136" font-family="system-ui, sans-serif" font-size="11.5" fill="#8f9cae">
+    <text x="20" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#475569">
       <tspan x="20" dy="0">Enterprise Hybrid Automation</tspan>
       <tspan x="20" dy="18">Framework utilizing Page Object</tspan>
       <tspan x="20" dy="18">Model pattern. E-Commerce E2E</tspan>
@@ -127,39 +116,31 @@
       <tspan x="20" dy="18">auto-screenshot on failure.</tspan>
     </text>
 
-    <!-- Telemetry Graph Line -->
-    <path d="M 20 270 L 60 280 L 110 250 L 160 265 L 210 235 L 250 245" fill="none" stroke="#00f5a0" stroke-width="1.5"/>
-    <rect x="207" y="232" width="6" height="6" fill="#00f5a0"/>
-
-    <line x1="20" y1="305" x2="250" y2="305" stroke="#00f5a0" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Wave Graph -->
+    <path d="M 2 318 L 2 260 Q 40 280 80 240 T 160 250 T 220 220 T 268 245 L 268 318 Z" fill="url(#area_green)"/>
+    <path d="M 2 260 Q 40 280 80 240 T 160 250 T 220 220 T 268 245" fill="none" stroke="#10b981" stroke-width="2.5"/>
+    <circle cx="220" cy="220" r="3.5" fill="#10b981"/>
   </g>
 
   <!-- ================= CARD 3: PLAYWRIGHT FRAMEWORK ================= -->
   <g transform="translate(605, 70)">
-    <rect x="0" y="0" width="270" height="320" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#58a6ff" stroke-width="1.2" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="270" height="320" rx="6" fill="url(#glass_sheen)"/>
+    <rect x="0" y="0" width="270" height="320" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
     
-    <rect x="0" y="0" width="270" height="24" rx="6" fill="#030712" fill-opacity="0.9" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.15"/>
-    <circle cx="15" cy="12" r="3.5" fill="#ef4444"/>
-    <circle cx="25" cy="12" r="3.5" fill="#f59e0b"/>
-    <circle cx="35" cy="12" r="3.5" fill="#10b981"/>
-    <text x="255" y="15" font-family="monospace" font-size="8" font-weight="bold" fill="#58a6ff" text-anchor="end">[PORT: 9323]</text>
-    
-    <text x="20" y="55" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#ffffff">Playwright Framework</text>
-    <text x="20" y="71" font-family="monospace" font-size="9" fill="#58a6ff" letter-spacing="1">ASYNC RUNNER // SHARDED</text>
+    <text x="20" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#0f172a">Playwright Framework</text>
+    <text x="20" y="52" font-family="monospace" font-size="9" font-weight="bold" fill="#00d2ff">ASYNC RUNNER // SHARDED</text>
 
-    <line x1="20" y1="81" x2="250" y2="81" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="20" y1="62" x2="250" y2="62" stroke="#e2e8f0" stroke-width="0.8"/>
 
-    <g transform="translate(20, 91)">
-      <rect x="0" y="0" width="70" height="18" rx="3" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="35" y="12" font-family="monospace" font-size="9" fill="#58a6ff" text-anchor="middle">TypeScript</text>
-      <rect x="76" y="0" width="72" height="18" rx="3" fill="#060a13" stroke="#00f5a0" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="112" y="12" font-family="monospace" font-size="9" fill="#00f5a0" text-anchor="middle">Playwright</text>
-      <rect x="154" y="0" width="50" height="18" rx="3" fill="#060a13" stroke="#00f2fe" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="179" y="12" font-family="monospace" font-size="9" fill="#00f2fe" text-anchor="middle">CI/CD</text>
+    <g transform="translate(20, 72)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <rect x="0" y="0" width="70" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="35" y="12" fill="#475569" text-anchor="middle">TypeScript</text>
+      <rect x="76" y="0" width="72" height="18" rx="9" fill="#f0f9ff" stroke="#b3f0ff" stroke-width="0.6"/>
+      <text x="112" y="12" fill="#00d2ff" text-anchor="middle">Playwright</text>
+      <rect x="154" y="0" width="50" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="179" y="12" fill="#475569" text-anchor="middle">CI/CD</text>
     </g>
 
-    <text x="20" y="136" font-family="system-ui, sans-serif" font-size="11.5" fill="#8f9cae">
+    <text x="20" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#475569">
       <tspan x="20" dy="0">High-performance test suite with</tspan>
       <tspan x="20" dy="18">parallel test runners. Cross-</tspan>
       <tspan x="20" dy="18">browser engine targeting Chromium,</tspan>
@@ -168,41 +149,33 @@
       <tspan x="20" dy="18">to GitHub Actions workflow.</tspan>
     </text>
 
-    <!-- Telemetry Graph Line -->
-    <path d="M 20 250 L 80 260 L 130 235 L 180 255 L 210 230 L 250 220" fill="none" stroke="#58a6ff" stroke-width="1.5"/>
-    <rect x="247" y="217" width="6" height="6" fill="#58a6ff"/>
-
-    <line x1="20" y1="305" x2="250" y2="305" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Wave Graph -->
+    <path d="M 2 318 L 2 245 Q 50 220 90 260 T 170 230 T 230 250 T 268 215 L 268 318 Z" fill="url(#area_blue)"/>
+    <path d="M 2 245 Q 50 220 90 260 T 170 230 T 230 250 T 268 215" fill="none" stroke="#00d2ff" stroke-width="2.5"/>
+    <circle cx="268" cy="215" r="3.5" fill="#00d2ff"/>
   </g>
 
   <!-- ================= CARD 4: AI QA RESEARCH ================= -->
   <g transform="translate(895, 70)">
-    <rect x="0" y="0" width="280" height="320" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#9d4edd" stroke-width="1.2" stroke-opacity="0.4"/>
-    <rect x="0" y="0" width="280" height="320" rx="6" fill="url(#glass_sheen)"/>
+    <rect x="0" y="0" width="280" height="320" rx="12" fill="url(#widget_sheen)" stroke="#e2e8f0" stroke-width="1.2"/>
     
-    <rect x="0" y="0" width="280" height="24" rx="6" fill="#030712" fill-opacity="0.9" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.15"/>
-    <circle cx="15" cy="12" r="3.5" fill="#ef4444"/>
-    <circle cx="25" cy="12" r="3.5" fill="#f59e0b"/>
-    <circle cx="35" cy="12" r="3.5" fill="#10b981"/>
-    <text x="265" y="15" font-family="monospace" font-size="8" font-weight="bold" fill="#9d4edd" text-anchor="end">[PORT: 5001]</text>
-    
-    <text x="20" y="55" font-family="system-ui, sans-serif" font-size="16" font-weight="900" fill="#ffffff">AI-Powered QA Research</text>
-    <text x="20" y="71" font-family="monospace" font-size="9" fill="#9d4edd" letter-spacing="1">LLM INTEGRATION // AGENTIC</text>
+    <text x="20" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="900" fill="#0f172a">AI-Powered QA Research</text>
+    <text x="20" y="52" font-family="monospace" font-size="9" font-weight="bold" fill="#9d4edd">LLM INTEGRATION // AGENTIC</text>
 
-    <line x1="20" y1="82" x2="260" y2="82" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+    <line x1="20" y1="62" x2="260" y2="62" stroke="#e2e8f0" stroke-width="0.8"/>
 
-    <g transform="translate(20, 91)">
-      <rect x="0" y="0" width="52" height="18" rx="3" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="26" y="12" font-family="monospace" font-size="9" fill="#58a6ff" text-anchor="middle">Python</text>
-      <rect x="58" y="0" width="46" height="18" rx="3" fill="#060a13" stroke="#ff6b35" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="81" y="12" font-family="monospace" font-size="9" fill="#ff6b35" text-anchor="middle">AI/ML</text>
-      <rect x="110" y="0" width="38" height="18" rx="3" fill="#060a13" stroke="#00f5a0" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="129" y="12" font-family="monospace" font-size="9" fill="#00f5a0" text-anchor="middle">LLM</text>
-      <rect x="154" y="0" width="86" height="18" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
-      <text x="197" y="12" font-family="monospace" font-size="9" fill="#9d4edd" text-anchor="middle">Agentic QA</text>
+    <g transform="translate(20, 72)" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold">
+      <rect x="0" y="0" width="52" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="26" y="12" fill="#475569" text-anchor="middle">Python</text>
+      <rect x="58" y="0" width="46" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="81" y="12" fill="#475569" text-anchor="middle">AI/ML</text>
+      <rect x="110" y="0" width="38" height="18" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="0.6"/>
+      <text x="129" y="12" fill="#475569" text-anchor="middle">LLM</text>
+      <rect x="154" y="0" width="86" height="18" rx="9" fill="#faf5ff" stroke="#e9d5ff" stroke-width="0.6"/>
+      <text x="197" y="12" fill="#9d4edd" text-anchor="middle">Agentic QA</text>
     </g>
 
-    <text x="20" y="136" font-family="system-ui, sans-serif" font-size="11.5" fill="#8f9cae">
+    <text x="20" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" fill="#475569">
       <tspan x="20" dy="0">Exploring AI-driven test script</tspan>
       <tspan x="20" dy="18">generation, MCP protocol support,</tspan>
       <tspan x="20" dy="18">and RAG pipelines. Prototyping</tspan>
@@ -211,10 +184,9 @@
       <tspan x="20" dy="18">within enterprise CI environments.</tspan>
     </text>
 
-    <!-- Telemetry Graph Line -->
-    <path d="M 20 280 L 60 250 L 110 270 L 160 240 L 210 260 L 260 230" fill="none" stroke="#9d4edd" stroke-width="1.5"/>
-    <rect x="157" y="237" width="6" height="6" fill="#9d4edd"/>
-
-    <line x1="20" y1="305" x2="260" y2="305" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Wave Graph -->
+    <path d="M 2 318 L 2 270 Q 50 250 90 280 T 170 240 T 230 260 T 278 230 L 278 318 Z" fill="url(#area_purple)"/>
+    <path d="M 2 270 Q 50 250 90 280 T 170 240 T 230 260 T 278 230" fill="none" stroke="#9d4edd" stroke-width="2.5"/>
+    <circle cx="170" cy="240" r="3.5" fill="#9d4edd"/>
   </g>
 </svg>

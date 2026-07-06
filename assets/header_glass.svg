@@ -1,129 +1,158 @@
 ﻿<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Space Gradient -->
-    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#050811"/>
-      <stop offset="100%" stop-color="#0a0f1d"/>
+    <!-- Card Gradients -->
+    <linearGradient id="header_dark_bg" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
 
-    <!-- Mesh Grid Pattern (Clean and sharp) -->
-    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.06"/>
-    </pattern>
-
-    <!-- Crisp Glass Specular Gradient (Simulating glass sheen/reflection) -->
-    <linearGradient id="glass_sheen" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.01"/>
-      <stop offset="70%" stop-color="#58a6ff" stop-opacity="0.02"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.05"/>
+    <linearGradient id="bar_grad_orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff7b5c"/>
+      <stop offset="100%" stop-color="#ff4500"/>
     </linearGradient>
 
-    <!-- Sharp Border Gradient -->
-    <linearGradient id="glass_border" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
-      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#00f5a0" stop-opacity="0.20"/>
+    <!-- Specular light sheen for light sections -->
+    <linearGradient id="light_sheen" x1="0" y1="140" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
 
-    <!-- Color Accent Gradients -->
-    <linearGradient id="cyan_accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00f2fe"/>
-      <stop offset="100%" stop-color="#00c6ff"/>
+    <!-- Mini chart gradients -->
+    <linearGradient id="chart_grad_orange" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9f43" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff9f43" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="chart_grad_green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="chart_grad_blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="chart_grad_purple" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0.0"/>
     </linearGradient>
   </defs>
 
-  <!-- 1. BASE BACKGROUND -->
-  <rect width="1200" height="320" fill="url(#bg_gradient)"/>
-  <rect width="1200" height="320" fill="url(#console_grid)"/>
+  <!-- 1. BASE BACKGROUND FRAME (Light dashboard container style) -->
+  <rect x="0" y="0" width="1200" height="320" rx="16" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
 
-  <!-- 2. CYBER CONSOLE CONTAINER (Glassmorphic Outer Frame) -->
-  <!-- Glass fill -->
-  <rect x="25" y="25" width="1150" height="270" rx="6" fill="#0b1120" fill-opacity="0.75"/>
-  <!-- Glass sheen overlay -->
-  <rect x="25" y="25" width="1150" height="270" rx="6" fill="url(#glass_sheen)"/>
-  <!-- Sharp glass border -->
-  <rect x="25" y="25" width="1150" height="270" rx="6" fill="none" stroke="url(#glass_border)" stroke-width="1.2"/>
+  <!-- 2. TOP DARK BLUE CONSOLE SECTION (rx="16" top corners only) -->
+  <path d="M 0 16 A 16 16 0 0 1 16 0 L 1184 0 A 16 16 0 0 1 1200 16 L 1200 140 L 0 140 Z" fill="url(#header_dark_bg)"/>
 
-  <!-- Precise Corner Brackets -->
-  <path d="M 20 40 L 20 20 L 40 20" stroke="#58a6ff" stroke-width="2" fill="none"/>
-  <path d="M 1180 40 L 1180 20 L 1160 20" stroke="#58a6ff" stroke-width="2" fill="none"/>
-  <path d="M 20 280 L 20 300 L 40 300" stroke="#58a6ff" stroke-width="2" fill="none"/>
-  <path d="M 1180 280 L 1180 300 L 1160 300" stroke="#58a6ff" stroke-width="2" fill="none"/>
-
-  <!-- Telemetry Alignment Marks (+) -->
-  <path d="M 90 50 M 85 50 L 95 50 M 90 45 L 90 55" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-  <path d="M 1110 50 M 1105 50 L 1115 50 M 1110 45 L 1110 55" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-  <path d="M 90 270 M 85 270 L 95 270 M 90 265 L 90 275" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-  <path d="M 1110 270 M 1105 270 L 1115 270 M 1110 265 L 1110 275" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.3"/>
-
-  <!-- 3. TOP TELEMETRY READOUT BAR -->
-  <rect x="25" y="25" width="1150" height="28" fill="#030712" fill-opacity="0.9" stroke="url(#glass_border)" stroke-width="1"/>
-  <!-- Console window buttons -->
-  <circle cx="45" cy="39" r="3.5" fill="#ef4444"/>
-  <circle cx="57" cy="39" r="3.5" fill="#f59e0b"/>
-  <circle cx="69" cy="39" r="3.5" fill="#10b981"/>
-
-  <!-- Telemetry text segments -->
-  <text x="95" y="43" font-family="monospace" font-size="9.5" font-weight="bold" fill="#8f9cae" letter-spacing="1">SYS_ST: <tspan fill="#10b981">ONLINE</tspan></text>
-  <circle cx="190" cy="39" r="3" fill="#10b981"/>
-
-  <text x="215" y="43" font-family="monospace" font-size="9.5" font-weight="bold" fill="#8f9cae" letter-spacing="1">LOC: <tspan fill="#58a6ff">IN_DL</tspan></text>
-  <text x="315" y="43" font-family="monospace" font-size="9.5" font-weight="bold" fill="#8f9cae" letter-spacing="1">FPS: <tspan fill="#00f2fe">60_FIXED</tspan></text>
-
-  <text x="1145" y="43" font-family="monospace" font-size="9.5" font-weight="bold" fill="#00f2fe" text-anchor="end" letter-spacing="1">SH_SYS_v3.0.0</text>
-
-  <!-- 4. CORE HERO CONTENT (Sharp typography) -->
+  <!-- Top Dark Section Content -->
+  <!-- User ID info -->
+  <text x="35" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="bold" fill="#38bdf8" letter-spacing="2">SYSTEM_OPERATOR // ACTIVE</text>
+  
   <!-- Name -->
-  <text x="600" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">
-    K. SHAIK ASHRAF
+  <text x="35" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+    K. Shaik Ashraf
+  </text>
+  
+  <!-- Role Subtitle -->
+  <text x="35" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#94a3b8" letter-spacing="0.5">
+    Senior QA Automation Engineer &amp; Framework Architect
   </text>
 
-  <!-- Subtitle -->
-  <text x="600" y="176" font-family="monospace" font-size="12" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="4">
-    SENIOR QA AUTOMATION ENGINEER // FRAMEWORK ARCHITECT
-  </text>
+  <!-- Top Right Mini Bar Chart (Matching reference image header) -->
+  <g transform="translate(850, 20)">
+    <!-- Chart Title -->
+    <text x="310" y="20" font-family="monospace" font-size="9" font-weight="bold" fill="#64748b" text-anchor="end">SYS_METRICS: E2E_PERF</text>
+    
+    <!-- Guidelines -->
+    <line x1="0" y1="40" x2="310" y2="40" stroke="#334155" stroke-width="0.8"/>
+    <line x1="0" y1="70" x2="310" y2="70" stroke="#334155" stroke-width="0.8"/>
+    <line x1="0" y1="100" x2="310" y2="100" stroke="#334155" stroke-width="0.8"/>
 
-  <!-- Clean, sharp geometry line divider -->
-  <line x1="420" y1="198" x2="780" y2="198" stroke="#58a6ff" stroke-width="0.8" stroke-dasharray="3,4" stroke-opacity="0.4"/>
-  <rect x="596" y="194" width="8" height="8" fill="#9d4edd"/>
-  <rect x="497" y="195" width="6" height="6" fill="#00f2fe"/>
-  <rect x="697" y="195" width="6" height="6" fill="#00f5a0"/>
-
-  <!-- 5. CRISP STATS PILLS (Glass panels without blur) -->
-  <!-- Pill 1: Experience -->
-  <g transform="translate(230, 228)">
-    <rect x="0" y="0" width="160" height="34" rx="6" fill="#060a13" stroke="#00f2fe" stroke-width="0.8" stroke-opacity="0.5"/>
-    <rect x="2" y="2" width="156" height="30" rx="4" fill="url(#glass_sheen)"/>
-    <text x="15" y="21" font-family="monospace" font-size="10" font-weight="bold" fill="#00f2fe">&gt;</text>
-    <text x="30" y="21" font-family="system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">5+ YRS EXP</text>
-    <text x="145" y="21" font-family="monospace" font-size="9" fill="#8f9cae" text-anchor="end">[ACT]</text>
+    <!-- Bar Group -->
+    <g transform="translate(10, 0)">
+      <!-- Bar 1 -->
+      <rect x="0" y="70" width="16" height="30" fill="#475569" rx="2"/>
+      <rect x="0" y="50" width="16" height="50" fill="url(#bar_grad_orange)" rx="2"/>
+      <!-- Bar 2 -->
+      <rect x="35" y="80" width="16" height="20" fill="#475569" rx="2"/>
+      <rect x="35" y="65" width="16" height="35" fill="url(#bar_grad_orange)" rx="2"/>
+      <!-- Bar 3 -->
+      <rect x="70" y="55" width="16" height="45" fill="#475569" rx="2"/>
+      <rect x="70" y="30" width="16" height="70" fill="url(#bar_grad_orange)" rx="2"/>
+      <!-- Bar 4 -->
+      <rect x="105" y="65" width="16" height="35" fill="#475569" rx="2"/>
+      <rect x="105" y="45" width="16" height="55" fill="url(#bar_grad_orange)" rx="2"/>
+      <!-- Bar 5 -->
+      <rect x="140" y="40" width="16" height="60" fill="#475569" rx="2"/>
+      <rect x="140" y="15" width="16" height="85" fill="url(#bar_grad_orange)" rx="2"/>
+      <!-- Bar 6 -->
+      <rect x="175" y="50" width="16" height="50" fill="#475569" rx="2"/>
+      <rect x="175" y="35" width="16" height="65" fill="url(#bar_grad_orange)" rx="2"/>
+      <!-- Bar 7 -->
+      <rect x="210" y="30" width="16" height="70" fill="#475569" rx="2"/>
+      <rect x="210" y="10" width="16" height="90" fill="url(#bar_grad_orange)" rx="2"/>
+      <!-- Bar 8 -->
+      <rect x="245" y="60" width="16" height="40" fill="#475569" rx="2"/>
+      <rect x="245" y="40" width="16" height="60" fill="url(#bar_grad_orange)" rx="2"/>
+    </g>
   </g>
 
-  <!-- Pill 2: ISTQB -->
-  <g transform="translate(410, 228)">
-    <rect x="0" y="0" width="160" height="34" rx="6" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
-    <rect x="2" y="2" width="156" height="30" rx="4" fill="url(#glass_sheen)"/>
-    <text x="15" y="21" font-family="monospace" font-size="10" font-weight="bold" fill="#9d4edd">&gt;</text>
-    <text x="30" y="21" font-family="system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">ISTQB® CTFL</text>
-    <text x="145" y="21" font-family="monospace" font-size="9" fill="#8f9cae" text-anchor="end">[CRT]</text>
+  <!-- 3. BOTTOM LIGHT SECTION (Off-white rx="16" bottom corners only) -->
+  <path d="M 0 140 L 1200 140 L 1200 304 A 16 16 0 0 1 1184 320 L 16 320 A 16 16 0 0 1 0 304 Z" fill="url(#light_sheen)"/>
+  <line x1="0" y1="140" x2="1200" y2="140" stroke="#e2e8f0" stroke-width="1.2"/>
+
+  <!-- 4. BOTTOM DASHBOARD WIDGETS (4 Columns) -->
+
+  <!-- Widget 1: Healthcare Domain -->
+  <g transform="translate(30, 160)">
+    <!-- White Card Base -->
+    <rect x="0" y="0" width="265" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Indicator Pill -->
+    <rect x="15" y="15" width="110" height="22" rx="11" fill="#fff5ec"/>
+    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#ff7b5c">🏥 HEALTHCARE</text>
+    
+    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">Legacy Migration</text>
+    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">E2E System Migration</text>
+    
+    <!-- Mini graph -->
+    <path d="M 135 125 L 160 100 L 185 115 L 210 90 L 235 110 L 250 85" fill="none" stroke="#ff9f43" stroke-width="2"/>
+    <path d="M 135 125 L 160 100 L 185 115 L 210 90 L 235 110 L 250 85 L 250 134 L 135 134 Z" fill="url(#chart_grad_orange)"/>
   </g>
 
-  <!-- Pill 3: Healthcare -->
-  <g transform="translate(590, 228)">
-    <rect x="0" y="0" width="175" height="34" rx="6" fill="#060a13" stroke="#00f5a0" stroke-width="0.8" stroke-opacity="0.5"/>
-    <rect x="2" y="2" width="171" height="30" rx="4" fill="url(#glass_sheen)"/>
-    <text x="15" y="21" font-family="monospace" font-size="10" font-weight="bold" fill="#00f5a0">&gt;</text>
-    <text x="30" y="21" font-family="system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">HEALTHCARE QA</text>
-    <text x="160" y="21" font-family="monospace" font-size="9" fill="#8f9cae" text-anchor="end">[DOM]</text>
+  <!-- Widget 2: Experience -->
+  <g transform="translate(320, 160)">
+    <rect x="0" y="0" width="265" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="15" y="15" width="100" height="22" rx="11" fill="#ecfdf5"/>
+    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#10b981">⚡ EXPERIENCE</text>
+    
+    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">5+ Years Active</text>
+    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">Senior QA Automation</text>
+
+    <path d="M 135 115 L 160 120 L 185 95 L 210 110 L 235 85 L 250 90" fill="none" stroke="#10b981" stroke-width="2"/>
+    <path d="M 135 115 L 160 120 L 185 95 L 210 110 L 235 85 L 250 90 L 250 134 L 135 134 Z" fill="url(#chart_grad_green)"/>
   </g>
 
-  <!-- Pill 4: Automation -->
-  <g transform="translate(785, 228)">
-    <rect x="0" y="0" width="180" height="34" rx="6" fill="#060a13" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.5"/>
-    <rect x="2" y="2" width="176" height="30" rx="4" fill="url(#glass_sheen)"/>
-    <text x="15" y="21" font-family="monospace" font-size="10" font-weight="bold" fill="#58a6ff">&gt;</text>
-    <text x="30" y="21" font-family="system-ui, sans-serif" font-size="11.5" font-weight="800" fill="#ffffff">AUTO ARCHITECT</text>
-    <text x="165" y="21" font-family="monospace" font-size="9" fill="#8f9cae" text-anchor="end">[ROL]</text>
+  <!-- Widget 3: Testing Speed -->
+  <g transform="translate(610, 160)">
+    <rect x="0" y="0" width="265" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="15" y="15" width="115" height="22" rx="11" fill="#f0f9ff"/>
+    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#00d2ff">🚀 VERIFICATION</text>
+    
+    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">99.8% Reliability</text>
+    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">1000s of API Records</text>
+
+    <path d="M 135 125 L 160 110 L 185 120 L 210 95 L 235 90 L 250 75" fill="none" stroke="#00d2ff" stroke-width="2"/>
+    <path d="M 135 125 L 160 110 L 185 120 L 210 95 L 235 90 L 250 75 L 250 134 L 135 134 Z" fill="url(#chart_grad_blue)"/>
+  </g>
+
+  <!-- Widget 4: Certification -->
+  <g transform="translate(900, 160)">
+    <rect x="0" y="0" width="270" height="135" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="15" y="15" width="110" height="22" rx="11" fill="#faf5ff"/>
+    <text x="25" y="30" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#9d4edd">🏅 CREDENTIAL</text>
+    
+    <text x="15" y="65" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#0f172a">ISTQB® CTFL</text>
+    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">Verified QA Standard</text>
+
+    <path d="M 135 110 L 160 125 L 185 110 L 210 115 L 235 90 L 250 80" fill="none" stroke="#9d4edd" stroke-width="2"/>
+    <path d="M 135 110 L 160 125 L 185 110 L 210 115 L 235 90 L 250 80 L 250 134 L 135 134 Z" fill="url(#chart_grad_purple)"/>
   </g>
 </svg>
