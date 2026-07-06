@@ -1,81 +1,100 @@
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                   PREMIUM BANNER HEADER                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=220&section=header&text=K.%20Shaik%20Ashraf&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Senior%20QA%20Automation%20Engineer&descAlignY=58&descSize=22&descColor=a8d8ff"/>
+<img src="./assets/banner.png" width="100%" alt="K. Shaik Ashraf — Senior QA Automation Engineer"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=750&lines=🔬+Building+Enterprise+API+Test+Frameworks;⚙️+Java+%7C+Karate+%7C+Selenium+%7C+Playwright;🏥+Healthcare+%7C+E-Commerce+%7C+AI%2FML+Domains;🚀+5%2B+Years+of+QA+Automation+Excellence;📍+Chennai%2C+Tamil+Nadu%2C+India" alt="Typing SVG" />
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=700&color=58A6FF&center=true&vCenter=true&width=780&lines=🔬+Enterprise+API+Test+Framework+Architect;⚙️+Karate+%7C+Java+%7C+Selenium+%7C+Playwright;🏥+Healthcare+%7C+E-Commerce+%7C+AI%2FML+Domains;🚀+5%2B+Years+of+QA+Automation+Excellence;🤖+Exploring+AI+Testing+%7C+MCP+%7C+RAG+%7C+Agentic+AI" alt="Typing SVG"/>
 
-<br>
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Alpha-ashu&label=Profile+Views&color=0e75b6&style=for-the-badge"/>
+<!-- Badge Row -->
+<a href="https://github.com/Alpha-ashu">
+<img src="https://komarev.com/ghpvc/?username=Alpha-ashu&label=Profile+Views&color=0e75b6&style=flat-square"/>
+</a>
 &nbsp;
-<img src="https://img.shields.io/badge/ISTQB®-CTFL%20Certified-gold?style=for-the-badge&logo=checkmarx&logoColor=white"/>
+<img src="https://img.shields.io/badge/ISTQB®%20CTFL-Certified-FFD700?style=flat-square&logo=checkmarx&logoColor=black"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Experience-5%2B%20Years-brightgreen?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Experience-5%2B%20Years-00C853?style=flat-square"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Domain-Healthcare%20%7C%20AI%2FML%20%7C%20E--Commerce-6C63FF?style=flat-square"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20To-Opportunities-FF6B35?style=flat-square"/>
 
 </div>
 
----
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                      ABOUT ME SECTION                      -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<table>
+<tr>
+<td valign="top" width="60%">
 
 ## 🧑‍💻 About Me
 
-<img align="right" width="360" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" alt="coding gif"/>
-
 ```yaml
-Name       : K. Shaik Ashraf
-Title      : Senior QA Automation Engineer
-Location   : Chennai, Tamil Nadu, India
+Role       : Senior QA Automation Engineer
 Experience : 5+ Years
 Domains    : Healthcare | E-Commerce | AI/ML
-Email      : shaik.job.details@gmail.com
-Phone      : +91 9025510959
 Cert       : ISTQB® CTFL
 Languages  : English | Tamil | Hindi
+Focus      : API Automation | Framework Design
 ```
 
-🏥 Currently at **Cognizant** — leading solo API test framework delivery for **UnitedHealth Group** healthcare migration.
+<br/>
 
-⚙️ Architecting **Karate + Java** comparison engines validating thousands of records per regression cycle.
+- ⚙️ Architecting **Karate + Java** engines validating thousands of API records per regression cycle
+- 🐍 Writing **Python utilities** for JSON comparison — normalising dynamic fields & date formats
+- 🔌 Building CI/CD pipelines with **Jenkins + Git** for continuous test execution
+- 🤖 Exploring **AI Testing · MCP · RAG · Agentic AI · LLM-Powered QA**
+- 📐 Passionate about clean framework design and disciplined delivery
 
-🤖 Exploring **AI Testing · MCP · RAG · Agentic AI · LLM-Powered QA**.
+</td>
+<td valign="top" width="40%" align="center">
 
-📐 Passionate about clean framework design, disciplined delivery & driving product quality through automation.
+<br/><br/>
 
-<br clear="right"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320" alt="Coding GIF" style="border-radius:12px"/>
 
----
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    CONNECT WITH ME                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
 
 ## 🌐 Connect With Me
 
-<p align="left">
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaik-ashraf-a1768b115/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaik.job.details@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alpha-ashu)
 
-<a href="https://www.linkedin.com/in/shaik-ashraf-a1768b115/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+</div>
 
-<a href="https://wa.me/919025510959">
-<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</a>
+<br/>
 
-<a href="mailto:shaik.job.details@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/Alpha-ashu">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</p>
-
----
-
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                  PROFESSIONAL EXPERIENCE                   -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## 💼 Professional Experience
 
-<details open>
-<summary><b>🏢 Cognizant Technology Solutions — Senior QA Automation Engineer (Contract)</b> &nbsp;|&nbsp; Nov 2024 – Present</summary>
+<table>
+<tr>
+<td>
 
-> **Client:** UnitedHealth Group (Healthcare) &nbsp;|&nbsp; Chennai, India
+**🏢 Senior QA Automation Engineer (Contract)** &nbsp;`Nov 2024 – Present`
+
+> 🏥 **Domain:** Healthcare — Legacy to Modern System Migration
 
 - 🏗️ Built an enterprise-level **API test framework from scratch** using Karate & Java to validate data consistency between legacy and migrated healthcare systems
 - 🐍 Wrote reusable **Python utilities** for JSON comparison — normalizing dynamic fields and date formats before each check
@@ -84,16 +103,17 @@ Languages  : English | Tamil | Hindi
 - 👤 Owned the framework **end-to-end as sole engineer**, partnering directly with client stakeholders on requirements & defect triage
 - 📋 Tracked execution & defects in **Rally**; contributed to Sprint Planning, Reviews, Daily Scrums & Retrospectives
 
-`Java` `Karate Framework` `REST API` `JSON` `SQL` `Python` `Jenkins` `Git` `Rally` `Agile`
+`Java` `Karate` `REST API` `JSON` `SQL` `Python` `Jenkins` `Git` `Rally` `Agile`
 
-</details>
+</td>
+</tr>
+<tr>
+<td>
 
-<details>
-<summary><b>🏥 Dedalus Global — Associate Software Product Tester</b> &nbsp;|&nbsp; Jul 2021 – May 2023</summary>
+**🏥 Associate Software Product Tester** &nbsp;`Jul 2021 – May 2023`
 
-> **Client:** Dedalus (Healthcare) &nbsp;|&nbsp; Chennai, India
+> 🖥️ **Domain:** Healthcare — Enterprise Web, Mobile & Windows Applications
 
-- 🖥️ Tested enterprise healthcare apps across **Web, Mobile & Windows** — functional, regression, integration, and system cycles
 - 🤖 Built a **Selenium WebDriver / TestNG** UI suite on a data-driven design for consistent cross-release coverage
 - 🔗 Verified REST endpoints with **Postman & REST Assured**; confirmed data integrity with direct **SQL queries**
 - 📱 Extended coverage to **mobile via Appium**; triaged issues in **HP ALM & Jira** with developers, POs & BAs
@@ -101,90 +121,153 @@ Languages  : English | Tamil | Hindi
 
 `Java` `Selenium` `TestNG` `REST Assured` `SQL` `Jira` `HP ALM` `Appium`
 
-</details>
+</td>
+</tr>
+<tr>
+<td>
 
-<details>
-<summary><b>🛒 Amazon Development Centre India — Digital Associate (QA)</b> &nbsp;|&nbsp; Sep 2019 – Mar 2021</summary>
+**🛒 Digital Associate — QA** &nbsp;`Sep 2019 – Mar 2021`
 
-> Chennai, India
+> 🤖 **Domain:** AI / Machine Learning — Annotation Tools & Ground-Truth Datasets
 
-- 🤖 Supported the **Astro AI robot initiative** — checked annotation-tool accuracy & curated ground-truth datasets for the ML team
-- 🧪 Ran functional test cycles on web applications; wrote **Java-Selenium scripts** to cut down repetitive manual effort
+- 🧠 Supported an **AI robot initiative** — verified annotation-tool accuracy & curated ground-truth datasets for the ML team
+- 🧪 Ran functional test cycles on web applications; wrote **Java-Selenium scripts** to cut repetitive manual effort
 - 🗄️ Cross-checked data via **SQL**; tracked issues in **Jira**
 
 `Java` `Selenium` `SQL` `Jira` `Machine Learning` `Manual Testing`
 
-</details>
+</td>
+</tr>
+</table>
 
----
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                       TECH STACK                          -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## ⚙️ Tech Stack
 
-### 🔤 Programming Languages
-<p>
-<img src="https://skillicons.dev/icons?i=java,python,javascript,typescript&theme=dark"/>
-</p>
+<table>
+<tr>
+<td align="center" width="25%">
 
-### 🧪 UI Automation
-<p>
+**🔤 Languages**
+
+<img src="https://skillicons.dev/icons?i=java,python,javascript,typescript&theme=dark&perline=2"/>
+
+</td>
+<td align="center" width="25%">
+
+**🧪 UI Automation**
+
 <img src="https://skillicons.dev/icons?i=selenium&theme=dark"/>
-&nbsp;
-<img src="https://img.shields.io/badge/TestNG-DC3545?style=for-the-badge&logo=testing-library&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/Page_Object_Model-0052CC?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data--Driven_Framework-6C63FF?style=for-the-badge"/>
-</p>
 
-### 🔗 API Automation
-<p>
+<br/>
+
+![TestNG](https://img.shields.io/badge/TestNG-DC3545?style=flat-square)
+![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![POM](https://img.shields.io/badge/Page_Object_Model-0052CC?style=flat-square)
+
+</td>
+<td align="center" width="25%">
+
+**🔗 API Automation**
+
 <img src="https://skillicons.dev/icons?i=postman&theme=dark"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Karate_Framework-0A74DA?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/REST_Assured-3CB371?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
-<img src="https://img.shields.io/badge/Insomnia-4000BF?style=for-the-badge&logo=insomnia&logoColor=white"/>
-<img src="https://img.shields.io/badge/JSON_Schema_Validation-F7DF1E?style=for-the-badge&logoColor=black"/>
-</p>
 
-### 🚀 CI/CD & DevOps
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,jenkins,maven,docker,mysql&theme=dark"/>
-</p>
+<br/>
 
-### 📋 Test Management
-<p>
-<img src="https://skillicons.dev/icons?i=jira&theme=dark"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Rally-0175C2?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/HP_ALM-0096D6?style=for-the-badge&logo=hp&logoColor=white"/>
-</p>
+![Karate](https://img.shields.io/badge/Karate-0A74DA?style=flat-square)
+![REST Assured](https://img.shields.io/badge/REST_Assured-3CB371?style=flat-square)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=flat-square&logo=insomnia&logoColor=white)
 
-### 🧰 Test Types Covered
-```text
-✅ Functional        ✅ Regression        ✅ Smoke
-✅ Sanity            ✅ Integration        ✅ System
-✅ End-to-End        ✅ Mobile (Appium)    ✅ API / Backend
+</td>
+<td align="center" width="25%">
+
+**🚀 DevOps & Tools**
+
+<img src="https://skillicons.dev/icons?i=git,github,jenkins,maven,docker,mysql&theme=dark&perline=3"/>
+
+<br/>
+
+![Rally](https://img.shields.io/badge/Rally-0175C2?style=flat-square)
+![HP ALM](https://img.shields.io/badge/HP_ALM-0096D6?style=flat-square&logo=hp&logoColor=white)
+<img src="https://skillicons.dev/icons?i=jira&theme=dark" height="20"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+**🧰 Test Coverage**
+
+```
+✅ Functional   ✅ Regression   ✅ Smoke        ✅ Sanity
+✅ Integration  ✅ System       ✅ End-to-End   ✅ API/Backend
+✅ Mobile       ✅ Data-Driven  ✅ BDD/Cucumber  ✅ Hybrid Framework
 ```
 
----
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    KEY ACHIEVEMENTS                        -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## 🏆 Key Achievements
 
-| 🏅 Achievement | Details |
-|---|---|
-| 🚀 **Production-Grade Framework** | Delivered solo enterprise API framework for UnitedHealth Group healthcare migration — cut manual regression effort significantly |
-| 🔬 **JSON Comparison Engine** | Built reusable engine now handling **thousands of checks per regression cycle** |
-| 🥇 **Employee of the Quarter** | Awarded at **Amazon** for process improvements |
-| 👑 **Team Leadership Recognition** | Recognized for leading QA activities at **Dedalus Global** |
-| 🏥 **Healthcare Migration** | Sole QA engineer ensuring data integrity across legacy-to-modern system transition at Cognizant |
+<table>
+<tr>
+<td width="50%">
 
----
+🚀 **Production-Grade Framework**
+Delivered a solo enterprise API framework for a large healthcare migration — eliminated significant manual regression cycles
 
+</td>
+<td width="50%">
+
+🔬 **JSON Comparison Engine**
+Built a reusable engine handling **thousands of record checks per CI run** with automated daily reporting
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+🥇 **Employee of the Quarter**
+Awarded for measurable process improvements in an AI/ML domain QA role
+
+</td>
+<td width="50%">
+
+👑 **Team Leadership Recognition**
+Recognized for independently leading end-to-end QA activities across enterprise healthcare modules
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    FEATURED PROJECTS                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## 📌 Featured Projects
 
 <table>
 <tr>
+<td width="50%">
+
+### 🔥 Karate API Framework
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Karate](https://img.shields.io/badge/Karate-0A74DA?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+
+Production-grade REST API comparison engine for healthcare system migration. Python JSON normalisation utilities + automated daily regression reporting. Handles thousands of record comparisons per CI run.
+
+</td>
 <td width="50%">
 
 ### 🧪 Selenium Automation Framework
@@ -193,74 +276,108 @@ Languages  : English | Tamil | Hindi
 ![TestNG](https://img.shields.io/badge/TestNG-DC3545?style=flat-square)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
-Enterprise Hybrid Framework featuring login, product search, checkout, cart & payment flows. Includes screenshot utility, retry logic & Extent Reports.
-
-</td>
-<td width="50%">
-
-### ⚡ Playwright Automation Framework
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-
-Cross-browser testing, parallel execution, HTML reports & CI/CD integration. Modern async architecture for fast, reliable test runs.
+Enterprise Hybrid Framework — Data-Driven + Page Object Model design. Login, search, checkout, cart & payment flows. Screenshot utility, retry logic & Extent Reports.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🔥 Karate API Framework
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Karate](https://img.shields.io/badge/Karate-0A74DA?style=flat-square)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+### ⚡ Playwright Automation Framework
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![CI](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
-Production-grade REST API comparison engine used in live healthcare system migration. Handles thousands of record comparisons per CI run.
+Cross-browser testing, parallel execution, HTML reports & CI/CD integration. Modern async-first architecture for fast, reliable test runs.
 
 </td>
 <td width="50%">
 
-### 🤖 AI-Powered Testing Exploration
+### 🤖 AI-Powered QA Exploration
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![AI](https://img.shields.io/badge/AI%2FML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-10A37F?style=flat-square&logo=openai&logoColor=white)
 
-Exploring LLM-powered test generation, MCP, RAG pipelines & Agentic AI workflows integrated into the QA lifecycle.
+Exploring LLM-powered test generation, MCP protocol, RAG pipelines & Agentic AI workflows integrated into the modern QA lifecycle.
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                     GITHUB ANALYTICS                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## 📊 GitHub Analytics
 
-<p align="center">
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Alpha-ashu&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9"/>
-&nbsp;&nbsp;
-<img height="175" src="https://github-readme-streak-stats.herokuapp.com/?user=Alpha-ashu&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakLabel=58A6FF"/>
-</p>
+<div align="center">
 
-<p align="center">
-<img width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alpha-ashu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9"/>
-</p>
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=Alpha-ashu&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&ring_color=58A6FF" alt="GitHub Stats"/>
+</td>
+<td>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Alpha-ashu&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakLabel=58A6FF&sideLabels=c9d1d9&dates=c9d1d9" alt="GitHub Streak"/>
+</td>
+</tr>
+</table>
 
----
+<br/>
 
-## 🏆 GitHub Trophies
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alpha-ashu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Alpha-ashu&theme=tokyonight&column=7&no-frame=true&no-bg=true"/>
-</p>
+</div>
 
----
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    GITHUB TROPHIES                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+## 🏅 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Alpha-ashu&theme=tokyonight&column=7&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                   CONTRIBUTION GRAPH                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## 📈 Contribution Graph
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alpha-ashu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF"/>
-</p>
+<div align="center">
 
----
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Alpha-ashu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF" alt="Contribution Graph"/>
 
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--               CONTRIBUTION SNAKE ANIMATION                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alpha-ashu/Alpha-ashu/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alpha-ashu/Alpha-ashu/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/Alpha-ashu/Alpha-ashu/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                  EDUCATION & CERTS                         -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## 🎓 Education & Certifications
 
 <table>
@@ -269,82 +386,91 @@ Exploring LLM-powered test generation, MCP, RAG pipelines & Agentic AI workflows
 
 ### 📚 Education
 
-| Degree | Institution | Year |
-|---|---|---|
-| **MCA** — Master of Computer Applications | SRM Institute of Science & Technology, Chennai | 2023 – 2025 |
-| **B.Sc.** — Physics | The New College, Chennai | 2014 – 2017 |
+| Degree | Year |
+|---|---|
+| **MCA** — Master of Computer Applications | 2023 – 2025 |
+| **B.Sc.** — Physics | 2014 – 2017 |
 
 </td>
-<td width="45%">
+<td width="45%" align="center">
 
-### 🏅 Certifications
+### 🏅 Certification
 
 <br/>
 
-<img src="https://img.shields.io/badge/ISTQB®-Certified_Tester_Foundation_Level_(CTFL)-gold?style=for-the-badge&logo=checkmarx&logoColor=white"/>
+<img src="https://img.shields.io/badge/ISTQB®-Certified_Tester_Foundation_Level-FFD700?style=for-the-badge&logo=checkmarx&logoColor=black"/>
 
 <br/><br/>
 
-*International Software Testing Qualifications Board — Foundation Level*
+*International Software Testing Qualifications Board*
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                   CURRENTLY EXPLORING                      -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 ## 🌱 Currently Exploring
-
-<p>
-<img src="https://img.shields.io/badge/AI_Testing-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Agentic_AI-8A2BE2?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/MCP_(Model_Context_Protocol)-0078D4?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG_Pipelines-FF4500?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/LLM_Integration-10A37F?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright_Advanced-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
-</p>
-
----
-
-## 🔍 Expertise Map
-
-```text
-🧪 Test Automation         ████████████████████ 100%
-🔗 API Testing             ████████████████████ 100%
-☕ Java                    ██████████████████░░  90%
-🐍 Python                  ████████████████░░░░  80%
-🌐 Selenium WebDriver      ████████████████████ 100%
-⚡ Karate Framework        ████████████████████ 100%
-🗄️ SQL                     █████████████████░░░  85%
-🔄 CI/CD (Jenkins/Git)     ████████████████░░░░  80%
-🎭 Playwright              ████████░░░░░░░░░░░░  40%  (Learning)
-🤖 AI / LLM Testing        ██████░░░░░░░░░░░░░░  30%  (Exploring)
-```
-
----
-
-## 💡 Philosophy
-
-> **"First, solve the problem. Then, automate the solution."**
-
-> **"Quality is not an act, it is a habit."** — Aristotle
-
----
 
 <div align="center">
 
+![AI Testing](https://img.shields.io/badge/AI_Testing-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP_Protocol-0078D4?style=for-the-badge&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-FF4500?style=for-the-badge&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM_Integration-10A37F?style=for-the-badge&logo=openai&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright_Advanced-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                    EXPERTISE MAP                           -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+## 🔍 Expertise Map
+
+```text
+🧪 Test Automation      ████████████████████  100%
+🔗 API Testing          ████████████████████  100%
+⚡ Karate Framework     ████████████████████  100%
+🌐 Selenium WebDriver   ████████████████████  100%
+☕ Java                 ██████████████████░░   90%
+🗄️ SQL                  █████████████████░░░   85%
+🐍 Python               ████████████████░░░░   80%
+🔄 CI/CD Pipeline       ████████████████░░░░   80%
+🎭 Playwright           ████████░░░░░░░░░░░░   40%  [Learning]
+🤖 AI / LLM Testing     ██████░░░░░░░░░░░░░░   30%  [Exploring]
+```
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                      PHILOSOPHY                            -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
+
+---
+
+### 💡 Philosophy
+
+> *"First, solve the problem. Then, automate the solution."*
+
+> *"Quality is not an act, it is a habit."* — Aristotle
+
+---
+
 ### 🤝 Open to Opportunities
 
-*Senior QA Automation | API Frameworks | Healthcare Domain | Remote / Chennai*
+*Senior QA Automation | API Framework Design | Healthcare Domain*
 
-<a href="mailto:shaik.job.details@gmail.com">
-  <img src="https://img.shields.io/badge/Hire%20Me-shaik.job.details%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+[![Hire Me](https://img.shields.io/badge/📩_Hire_Me-Get_In_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaik.job.details@gmail.com)
 &nbsp;
-<a href="https://www.linkedin.com/in/shaik-ashraf-a1768b115/">
-  <img src="https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/🔗_Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaik-ashraf-a1768b115/)
 
 <br/><br/>
 
