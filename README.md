@@ -286,11 +286,11 @@ Connecting skilled professionals with remote opportunities. Smart matching, proj
 <div align="center">
 
 <a href="https://github.com/Alpha-ashu/Kanaku">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alpha-ashu&repo=Kanaku&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&icon_color=58A6FF" alt="Kanaku"/>
+  <img src="https://gh-card.dev/repos/Alpha-ashu/Kanaku.svg?fullname=1&link_target=_blank" alt="Kanaku"/>
 </a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://github.com/Alpha-ashu/candidatex">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alpha-ashu&repo=candidatex&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&icon_color=58A6FF" alt="CandidateX"/>
+  <img src="https://gh-card.dev/repos/Alpha-ashu/candidatex.svg?fullname=1&link_target=_blank" alt="CandidateX"/>
 </a>
 
 </div>
@@ -408,7 +408,7 @@ Exploring LLM-powered test generation, MCP protocol, RAG pipelines & Agentic AI 
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alpha-ashu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8" height="160" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alpha-ashu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8&cache_seconds=1800" height="160" alt="Top Languages"/>
 
 </div>
 
@@ -418,7 +418,7 @@ Exploring LLM-powered test generation, MCP protocol, RAG pipelines & Agentic AI 
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Alpha-ashu&theme=tokyonight&column=7&no-frame=true&no-bg=true&margin-w=4" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Alpha-ashu&theme=tokyonight&column=6&no-frame=true&no-bg=true&margin-w=6&margin-h=6" alt="Trophies" width="100%"/>
 
 </div>
 
