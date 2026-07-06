@@ -1,4 +1,4 @@
-﻿<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Space Gradient -->
     <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="260" gradientUnits="userSpaceOnUse">
@@ -95,6 +95,6 @@
     <!-- Badge 4 -->
     <rect x="455" y="0" width="145" height="26" rx="13" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
     <circle cx="470" cy="13" r="4.5" fill="#7928ca"/>
-    <text x="483" y="17" fill="#8b949e">Continuous Pipelines</text>
+    <text x="483" y="17" fill="#8b949e">Vibe Coder 🤙</text>
   </g>
 </svg>

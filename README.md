@@ -28,7 +28,7 @@ Role       : Senior QA Automation Engineer
 Experience : 5+ Years
 Domains    : Healthcare | FinTech | E-Commerce | AI/ML
 Cert       : ISTQB® CTFL
-Languages  : English | Tamil | Hindi
+Status     : Vibe Coder 🤙
 Passion    : Framework Design | Automation | AI Testing
 ```
 
@@ -38,6 +38,7 @@ Passion    : Framework Design | Automation | AI Testing
 - 🐍 Building **Python utilities** for JSON comparison — normalising dynamic fields & date formats
 - 🔌 Wiring **Jenkins + Git** for continuous CI/CD test pipelines
 - 🤖 Exploring **AI Testing · MCP · RAG · Agentic AI · LLM-Powered QA**
+- ✍️ Active **Vibe Coder** leveraging modern agentic workflows to build high-fidelity automation setups
 - 📐 Disciplined delivery | Clean framework design | Quality-first mindset
 
 </td>
