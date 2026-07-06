@@ -395,30 +395,11 @@ Exploring LLM-powered test generation, MCP protocol, RAG pipelines & Agentic AI 
 
 <div align="center">
 
-<table>
-<tr>
-<td>
-<img src="https://github-readme-stats.vercel.app/api?username=Alpha-ashu&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" height="180" alt="Stats"/>
-</td>
-<td>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alpha-ashu&theme=tokyonight&hide_border=true&background=0D1117&stroke=0e4d92&ring=58A6FF&fire=FF6B35&currStreakLabel=58A6FF" height="180" alt="Streak"/>
-</td>
-</tr>
-</table>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alpha-ashu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8&cache_seconds=1800" height="160" alt="Top Languages"/>
-
-</div>
-
----
-
-## 🏅 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Alpha-ashu&theme=tokyonight&column=6&no-frame=true&no-bg=true&margin-w=6&margin-h=6" alt="Trophies" width="100%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Alpha-ashu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8" height="160" alt="Top Languages"/>
 
 </div>
 
@@ -491,15 +472,15 @@ Exploring LLM-powered test generation, MCP protocol, RAG pipelines & Agentic AI 
 ## 🔍 Expertise Map
 
 ```text
-🧪 Test Automation      ████████████████████  100%
-🔗 API Testing          ████████████████████  100%
-⚡ Karate Framework     ████████████████████  100%
-🌐 Selenium WebDriver   ████████████████████  100%
+🧪 Test Automation      ████████████████       80%
+🔗 API Testing          ████████████████░░░░   80%
+⚡ Karate Framework     ████████████████░░░░   80%
+🌐 Selenium WebDriver   ████████████████░░░░   80%
 ☕ Java                 ██████████████████░░   90%
-🗄️  SQL                  █████████████████░░░   85%
+🗄️  SQL                 █████████████████░░░   85%
 🐍 Python               ████████████████░░░░   80%
 🔄 CI/CD Pipeline       ████████████████░░░░   80%
-🎭 Playwright           ████████░░░░░░░░░░░░   40%  [Learning]
+🎭 Playwright           ████████████░░░░░░░░   65%  [Learning]
 🤖 AI / LLM Testing     ██████░░░░░░░░░░░░░░   30%  [Exploring]
 ```
 
