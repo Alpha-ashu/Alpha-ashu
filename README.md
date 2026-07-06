@@ -37,7 +37,6 @@ Passion    : Framework Design | Automation | AI Testing
 - ⚙️ Architecting **Karate + Java** engines validating thousands of API records per regression cycle
 - 🐍 Building **Python utilities** for JSON comparison — normalising dynamic fields & date formats
 - 🔌 Wiring **Jenkins + Git** for continuous CI/CD test pipelines
-- 💡 Founder of **Kanaku**, **CandidateX** & **OneWork** platforms
 - 🤖 Exploring **AI Testing · MCP · RAG · Agentic AI · LLM-Powered QA**
 - 📐 Disciplined delivery | Clean framework design | Quality-first mindset
 
@@ -52,63 +51,7 @@ Passion    : Framework Design | Automation | AI Testing
 </tr>
 </table>
 
----
 
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                  FOUNDER SPOTLIGHT                           ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
-
-## 💡 Founder — Products I Built
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-### 🚀 Kanaku
-**AI-Powered Personal Finance Platform**
-
-[![Kanaku](https://img.shields.io/badge/Kanaku-AI%20Finance%20App-FF6B35?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alpha-ashu/Kanaku)
-
-![Status](https://img.shields.io/badge/Status-Active-00C853?style=flat-square)
-![Type](https://img.shields.io/badge/Type-FinTech-6C63FF?style=flat-square)
-
-Smart budgeting, expense tracking & financial insights — powered by AI. Built to simplify personal finance management.
-
-</td>
-<td align="center" width="33%">
-
-### 🎯 CandidateX
-**AI-Powered Job Platform**
-
-[![CandidateX](https://img.shields.io/badge/CandidateX-Job%20Platform-0077B5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alpha-ashu/candidatex)
-
-![Status](https://img.shields.io/badge/Status-Active-00C853?style=flat-square)
-![Type](https://img.shields.io/badge/Type-HR%20Tech-58A6FF?style=flat-square)
-
-Intelligent candidate-job matching platform. AI-driven screening, profile parsing & automated shortlisting for modern hiring.
-
-</td>
-<td align="center" width="33%">
-
-### 🔗 OneWork
-**Freelance & Remote Work Hub**
-
-[![OneWork](https://img.shields.io/badge/OneWork-Work%20Platform-00C853?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alpha-ashu/candidatex)
-
-![Status](https://img.shields.io/badge/Status-Building-FFD700?style=flat-square)
-![Type](https://img.shields.io/badge/Type-Future%20of%20Work-FF6B35?style=flat-square)
-
-Connecting skilled professionals with remote opportunities. Smart matching, project management & payments in one platform.
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
 <!-- ║                  CONNECT WITH ME                             ║ -->
@@ -269,52 +212,10 @@ Connecting skilled professionals with remote opportunities. Smart matching, proj
 <!-- ║                PINNED OPEN-SOURCE PROJECTS                   ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
+## 📌 Open Source Projects
 
-
-### 🔥 Karate API Framework
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Karate](https://img.shields.io/badge/Karate-0A74DA?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-
-Production-grade REST API comparison engine for healthcare migration. Python JSON normalisation + automated daily regression with thousands of record checks per CI run.
-
-</td>
-<td width="50%">
-
-### 🧪 Selenium Automation Framework
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![TestNG](https://img.shields.io/badge/TestNG-DC3545?style=flat-square)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-
-Enterprise Hybrid Framework — Data-Driven + Page Object Model. Login, search, checkout, cart & payment flows. Screenshot utility, retry logic & Extent Reports.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⚡ Playwright Framework
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![CI](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-
-Cross-browser testing, parallel execution, HTML reports & CI/CD integration. Modern async-first architecture for reliable runs.
-
-</td>
-<td width="50%">
-
-### 🤖 AI-Powered QA Research
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![AI](https://img.shields.io/badge/AI%2FML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM-10A37F?style=flat-square&logo=openai&logoColor=white)
-
-Exploring LLM-powered test generation, MCP protocol, RAG pipelines & Agentic AI workflows in the modern QA lifecycle.
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="./assets/projects_glass.svg" width="100%" alt="Open Source Projects — Karate API Framework, Selenium Automation, Playwright, AI-Powered QA Research"/>
 
 ---
 
