@@ -1,0 +1,171 @@
+﻿<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Space Gradient -->
+    <linearGradient id="bg_gradient" x1="600" y1="0" x2="600" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+
+    <!-- Mesh Grid Pattern -->
+    <pattern id="console_grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.04"/>
+    </pattern>
+
+    <!-- Specular Sheen Gradient for Card Glass -->
+    <linearGradient id="glass_sheen" x1="0" y1="0" x2="550" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.01"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Bar Gradients -->
+    <linearGradient id="bar_java" x1="0" y1="0" x2="350" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+    </linearGradient>
+    <linearGradient id="bar_qa" x1="0" y1="0" x2="350" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f5a0"/>
+      <stop offset="100%" stop-color="#00b894"/>
+    </linearGradient>
+    <linearGradient id="bar_learn" x1="0" y1="0" x2="350" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9d4edd"/>
+      <stop offset="100%" stop-color="#6c5ce7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="380" fill="url(#bg_gradient)"/>
+  <rect width="1200" height="380" fill="url(#console_grid)"/>
+
+  <!-- SECTION HEADER -->
+  <line x1="50" y1="35" x2="1150" y2="35" stroke="#58a6ff" stroke-width="0.8" stroke-opacity="0.15"/>
+  <text x="600" y="27" font-family="monospace" font-size="11" font-weight="bold" fill="#00f2fe" text-anchor="middle" letter-spacing="4">
+    [ SYSTEM_TELEMETRY // EXPERTISE_ANALYSIS ]
+  </text>
+
+  <!-- ================= LEFT COLUMN: EXPERTISE MAP ================= -->
+  <g transform="translate(25, 55)">
+    <rect x="0" y="0" width="560" height="300" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="0" y="0" width="560" height="300" rx="6" fill="url(#glass_sheen)"/>
+    
+    <text x="20" y="25" font-family="monospace" font-size="11" font-weight="bold" fill="#58a6ff">&gt; RADAR_SYSTEMS // COMPETENCY_BARS</text>
+    <line x1="20" y1="32" x2="540" y2="32" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+
+    <!-- Skill bars layout -->
+    <g transform="translate(20, 45)" font-family="monospace" font-size="10.5" font-weight="bold" fill="#8f9cae">
+      <!-- Skill 1 -->
+      <text x="0" y="15">JAVA DEVELOPER</text>
+      <text x="520" y="15" fill="#ffffff" text-anchor="end">90%</text>
+      <rect x="180" y="6" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="6" width="270" height="10" rx="2" fill="url(#bar_java)"/>
+
+      <!-- Skill 2 -->
+      <text x="0" y="40">SQL DATABASE</text>
+      <text x="520" y="40" fill="#ffffff" text-anchor="end">85%</text>
+      <rect x="180" y="31" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="31" width="255" height="10" rx="2" fill="url(#bar_java)"/>
+
+      <!-- Skill 3 -->
+      <text x="0" y="65">TEST AUTOMATION</text>
+      <text x="520" y="65" fill="#ffffff" text-anchor="end">80%</text>
+      <rect x="180" y="56" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="56" width="240" height="10" rx="2" fill="url(#bar_qa)"/>
+
+      <!-- Skill 4 -->
+      <text x="0" y="90">API TESTING</text>
+      <text x="520" y="90" fill="#ffffff" text-anchor="end">80%</text>
+      <rect x="180" y="81" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="81" width="240" height="10" rx="2" fill="url(#bar_qa)"/>
+
+      <!-- Skill 5 -->
+      <text x="0" y="115">KARATE DSL</text>
+      <text x="520" y="115" fill="#ffffff" text-anchor="end">80%</text>
+      <rect x="180" y="106" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="106" width="240" height="10" rx="2" fill="url(#bar_qa)"/>
+
+      <!-- Skill 6 -->
+      <text x="0" y="140">SELENIUM WEBDRV</text>
+      <text x="520" y="140" fill="#ffffff" text-anchor="end">80%</text>
+      <rect x="180" y="131" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="131" width="240" height="10" rx="2" fill="url(#bar_qa)"/>
+
+      <!-- Skill 7 -->
+      <text x="0" y="165">PYTHON ENGINE</text>
+      <text x="520" y="165" fill="#ffffff" text-anchor="end">80%</text>
+      <rect x="180" y="156" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="156" width="240" height="10" rx="2" fill="url(#bar_java)"/>
+
+      <!-- Skill 8 -->
+      <text x="0" y="190">CI/CD PIPELINES</text>
+      <text x="520" y="190" fill="#ffffff" text-anchor="end">80%</text>
+      <rect x="180" y="181" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="181" width="240" height="10" rx="2" fill="url(#bar_java)"/>
+
+      <!-- Skill 9 -->
+      <text x="0" y="215">PLAYWRIGHT</text>
+      <text x="520" y="215" fill="#ffffff" text-anchor="end">65%</text>
+      <rect x="180" y="206" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="206" width="195" height="10" rx="2" fill="url(#bar_learn)"/>
+
+      <!-- Skill 10 -->
+      <text x="0" y="240">AI/LLM TESTING</text>
+      <text x="520" y="240" fill="#ffffff" text-anchor="end">30%</text>
+      <rect x="180" y="231" width="300" height="10" rx="2" fill="#060a13" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.2"/>
+      <rect x="180" y="231" width="90" height="10" rx="2" fill="url(#bar_learn)"/>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: CERT & RESEARCH ================= -->
+  <!-- 1. Certification (ISTQB) -->
+  <g transform="translate(610, 55)">
+    <rect x="0" y="0" width="560" height="135" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#ff9f43" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="0" y="0" width="560" height="135" rx="6" fill="url(#glass_sheen)"/>
+    
+    <text x="20" y="25" font-family="monospace" font-size="11" font-weight="bold" fill="#ff9f43">&gt; CERTIFICATIONS // VERIFIED_CREDENTIALS</text>
+    <line x1="20" y1="32" x2="540" y2="32" stroke="#ff9f43" stroke-width="0.5" stroke-opacity="0.2"/>
+
+    <!-- Badge info -->
+    <rect x="20" y="48" width="520" height="66" rx="4" fill="#060a13" stroke="#ff9f43" stroke-width="0.8" stroke-opacity="0.3"/>
+    <text x="35" y="74" font-family="system-ui, sans-serif" font-size="14.5" font-weight="900" fill="#ffffff">ISTQB® Certified Tester</text>
+    <text x="35" y="94" font-family="system-ui, sans-serif" font-size="11" fill="#ff9f43" font-weight="bold">Foundation Level (CTFL) — ID: CERT_192837</text>
+    <text x="525" y="86" font-family="monospace" font-size="10" fill="#8f9cae" text-anchor="end">[ISSUER: ISTQB]</text>
+  </g>
+
+  <!-- 2. Currently Exploring -->
+  <g transform="translate(610, 210)">
+    <rect x="0" y="0" width="560" height="145" rx="6" fill="#0b1120" fill-opacity="0.8" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="0" y="0" width="560" height="145" rx="6" fill="url(#glass_sheen)"/>
+    
+    <text x="20" y="25" font-family="monospace" font-size="11" font-weight="bold" fill="#9d4edd">&gt; ACTIVE_RESEARCH // LEARNING_CURVES</text>
+    <line x1="20" y1="32" x2="540" y2="32" stroke="#9d4edd" stroke-width="0.5" stroke-opacity="0.2"/>
+
+    <!-- Research chips -->
+    <g transform="translate(20, 48)">
+      <!-- Chip 1 -->
+      <rect x="0" y="0" width="115" height="24" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="57" y="16" font-family="monospace" font-size="9.5" fill="#ffffff" font-weight="bold" text-anchor="middle">AI_Testing</text>
+      <!-- Chip 2 -->
+      <rect x="125" y="0" width="125" height="24" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="187" y="16" font-family="monospace" font-size="9.5" fill="#ffffff" font-weight="bold" text-anchor="middle">Agentic_AI</text>
+      <!-- Chip 3 -->
+      <rect x="260" y="0" width="125" height="24" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="322" y="16" font-family="monospace" font-size="9.5" fill="#ffffff" font-weight="bold" text-anchor="middle">MCP_Protocol</text>
+      <!-- Chip 4 -->
+      <rect x="395" y="0" width="125" height="24" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="457" y="16" font-family="monospace" font-size="9.5" fill="#ffffff" font-weight="bold" text-anchor="middle">RAG_Pipelines</text>
+
+      <!-- Row 2 -->
+      <!-- Chip 5 -->
+      <rect x="0" y="34" width="145" height="24" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="72" y="50" font-family="monospace" font-size="9.5" fill="#ffffff" font-weight="bold" text-anchor="middle">LLM_Integration</text>
+      <!-- Chip 6 -->
+      <rect x="155" y="34" width="170" height="24" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="240" y="50" font-family="monospace" font-size="9.5" fill="#ffffff" font-weight="bold" text-anchor="middle">Playwright_Advanced</text>
+      <!-- Chip 7 -->
+      <rect x="335" y="34" width="185" height="24" rx="3" fill="#060a13" stroke="#9d4edd" stroke-width="0.8" stroke-opacity="0.5"/>
+      <text x="427" y="50" font-family="monospace" font-size="9.5" fill="#ffffff" font-weight="bold" text-anchor="middle">GitHub_Actions_CI</text>
+    </g>
+
+    <text x="20" y="125" font-family="monospace" font-size="9" fill="#8f9cae">CURRENT_SPEED: ACTIVE // LABS_DEPLOYED</text>
+  </g>
+</svg>

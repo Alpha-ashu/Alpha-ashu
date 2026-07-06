@@ -137,74 +137,11 @@ Passion    : Framework Design | Automation | AI Testing
 <!-- ║                       TECH STACK                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-## ⚙️ Tech Stack
+## ⚙️ Tech Stack & Coverage
 
-<table width="100%">
-<tr>
-<td align="center" valign="top" width="25%">
-
-**🔤 Languages**
-
-<img src="https://skillicons.dev/icons?i=java&theme=dark" height="40" title="Java"/>
-<img src="https://skillicons.dev/icons?i=python&theme=dark" height="40" title="Python"/>
-<img src="https://skillicons.dev/icons?i=javascript&theme=dark" height="40" title="JavaScript"/>
-<img src="https://skillicons.dev/icons?i=typescript&theme=dark" height="40" title="TypeScript"/>
-
-</td>
-<td align="center" valign="top" width="25%">
-
-**🧪 UI Automation**
-
-<img src="https://skillicons.dev/icons?i=selenium&theme=dark" height="40" title="Selenium"/>
-
-<br/>
-
-![TestNG](https://img.shields.io/badge/TestNG-DC3545?style=flat-square)
-![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=flat-square&logo=cucumber&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Appium](https://img.shields.io/badge/Appium-662D91?style=flat-square)
-![POM](https://img.shields.io/badge/POM-0052CC?style=flat-square)
-
-</td>
-<td align="center" valign="top" width="25%">
-
-**🔗 API & Backend**
-
-<img src="https://skillicons.dev/icons?i=postman&theme=dark" height="40" title="Postman"/>
-
-<br/>
-
-![Karate](https://img.shields.io/badge/Karate-0A74DA?style=flat-square)
-![REST Assured](https://img.shields.io/badge/REST_Assured-3CB371?style=flat-square)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
-![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=flat-square&logo=insomnia&logoColor=white)
-![JSON Schema](https://img.shields.io/badge/JSON_Schema-F7DF1E?style=flat-square)
-
-</td>
-<td align="center" valign="top" width="25%">
-
-**🚀 DevOps & Tools**
-
-<img src="https://skillicons.dev/icons?i=git&theme=dark" height="40" title="Git"/>
-<img src="https://skillicons.dev/icons?i=github&theme=dark" height="40" title="GitHub"/>
-<img src="https://skillicons.dev/icons?i=jenkins&theme=dark" height="40" title="Jenkins"/>
-<img src="https://skillicons.dev/icons?i=maven&theme=dark" height="40" title="Maven"/>
-<img src="https://skillicons.dev/icons?i=docker&theme=dark" height="40" title="Docker"/>
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" height="40" title="SQL"/>
-<img src="https://skillicons.dev/icons?i=jira&theme=dark" height="40" title="Jira"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-**🧰 Test Coverage**
-```
-✅ Functional   ✅ Regression   ✅ Smoke/Sanity  ✅ Integration
-✅ System       ✅ End-to-End   ✅ API/Backend   ✅ Mobile (Appium)
-✅ Data-Driven  ✅ BDD/Cucumber ✅ Hybrid/POM    ✅ Healthcare/FinTech
-```
+<div align="center">
+<img src="./assets/tech_stack_glass.svg" width="100%" alt="Tech Stack & Coverage Dashboard"/>
+</div>
 
 ---
 
@@ -274,59 +211,14 @@ Passion    : Framework Design | Automation | AI Testing
 ---
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                       CERTIFICATION                          ║ -->
+<!-- ║                EXPERTISE & RESEARCH DIRECTORY                ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-## 🏅 Certification
+## 📊 Expertise & Research
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/ISTQB®-Certified_Tester_Foundation_Level_(CTFL)-FFD700?style=for-the-badge&logo=checkmarx&logoColor=black"/>
-
-*International Software Testing Qualifications Board*
-
+<img src="./assets/expertise_glass.svg" width="100%" alt="Expertise Map, Certifications & Research Exploration Console"/>
 </div>
-
----
-
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                   CURRENTLY EXPLORING                        ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
-
-## 🌱 Currently Exploring
-
-<div align="center">
-
-![AI Testing](https://img.shields.io/badge/AI_Testing-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Agentic AI](https://img.shields.io/badge/Agentic_AI-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
-![MCP Protocol](https://img.shields.io/badge/MCP_Protocol-0078D4?style=for-the-badge&logoColor=white)
-![RAG Pipelines](https://img.shields.io/badge/RAG_Pipelines-FF4500?style=for-the-badge&logoColor=white)
-![LLM Integration](https://img.shields.io/badge/LLM_Integration-10A37F?style=for-the-badge&logo=openai&logoColor=white)
-![Playwright Advanced](https://img.shields.io/badge/Playwright_Advanced-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-</div>
-
----
-
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                     EXPERTISE MAP                            ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
-
-## 🔍 Expertise Map
-
-```text
-🧪 Test Automation      ████████████████       80%
-🔗 API Testing          ████████████████░░░░   80%
-⚡ Karate Framework     ████████████████░░░░   80%
-🌐 Selenium WebDriver   ████████████████░░░░   80%
-☕ Java                 ██████████████████░░   90%
-🗄️  SQL                 █████████████████░░░   85%
-🐍 Python               ████████████████░░░░   80%
-🔄 CI/CD Pipeline       ████████████████░░░░   80%
-🎭 Playwright           ████████████░░░░░░░░   65%  [Learning]
-🤖 AI / LLM Testing     ██████░░░░░░░░░░░░░░   30%  [Exploring]
-```
 
 ---
 
@@ -344,16 +236,14 @@ Passion    : Framework Design | Automation | AI Testing
 
 ### 🤝 Open to Opportunities
 
-*Senior QA Automation · API Framework Design · Healthcare Domain · Product Founder*
+*Senior QA Automation · API Framework Design · Healthcare Domain · Framework Architect*
 
-[![Hire Me](https://img.shields.io/badge/📩%20Hire%20Me-Get%20In%20Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaik.job.details@gmail.com)
-&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/🔗%20Connect-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaik-ashraf-a1768b115/)
+<br/>
+
+**[ [📩 Get In Touch](mailto:shaik.job.details@gmail.com) ]** &nbsp;&nbsp;·&nbsp;&nbsp; **[ [🔗 Connect on LinkedIn](https://www.linkedin.com/in/shaik-ashraf-a1768b115/) ]**
 
 <br/>
 
 ### ⭐ Thanks for visiting! ⭐
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0a2e,60:0d2137,100:0d1117&height=120&section=footer" width="100%"/>
 
 </div>
