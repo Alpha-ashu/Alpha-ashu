@@ -160,7 +160,7 @@ Connecting skilled professionals with remote opportunities. Smart matching, proj
 | Git + Jenkins CI integration | Continuous execution without manual intervention |
 | End-to-end ownership as sole engineer | Direct stakeholder partnership on requirements & defect triage |
 
-`Java` `Karate` `REST API` `JSON` `SQL` `Python` `Jenkins` `Git` `Rally` `Agile`
+
 
 </details>
 
@@ -180,7 +180,7 @@ Connecting skilled professionals with remote opportunities. Smart matching, proj
 | Defect triage with developers, POs & BAs | HP ALM, Jira |
 | Covered patient portal, nurse tools, medication, billing & lab modules | Full STLC ownership |
 
-`Java` `Selenium` `TestNG` `REST Assured` `SQL` `Appium` `Jira` `HP ALM`
+
 
 </details>
 
@@ -196,7 +196,7 @@ Connecting skilled professionals with remote opportunities. Smart matching, proj
 - 🧪 Ran functional web test cycles; wrote **Java-Selenium scripts** to reduce manual effort
 - 🗄️ Data cross-checking via **SQL** | Issue tracking via **Jira**
 
-`Java` `Selenium` `SQL` `Jira` `Machine Learning` `Manual Testing`
+
 
 </details>
 
@@ -449,38 +449,18 @@ Exploring LLM-powered test generation, MCP protocol, RAG pipelines & Agentic AI 
 ---
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║                  EDUCATION & CERTIFICATIONS                  ║ -->
+<!-- ║                       CERTIFICATION                          ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-## 🎓 Education & Certifications
+## 🏅 Certification
 
-<table width="100%">
-<tr>
-<td valign="top" width="55%">
-
-### 📚 Education
-
-| Degree | Year |
-|:--|:--:|
-| **MCA** — Master of Computer Applications | 2023 – 2025 |
-| **B.Sc.** — Physics | 2014 – 2017 |
-
-</td>
-<td valign="top" width="45%" align="center">
-
-### 🏅 Certification
-
-<br/>
+<div align="center">
 
 <img src="https://img.shields.io/badge/ISTQB®-Certified_Tester_Foundation_Level_(CTFL)-FFD700?style=for-the-badge&logo=checkmarx&logoColor=black"/>
 
-<br/><br/>
-
 *International Software Testing Qualifications Board*
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
